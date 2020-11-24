@@ -11,4 +11,14 @@
     <string name="MotdePasse">MotdePasse</string>
     <string name="confirmerMotdePasse">confirmerMotdePasse</string>
     <string name="logo">logo</string>
+    <string name="app_name">khawla</string>
+    <string name="connexion">connexion</string>
+    <string name="create">create</string>
+    <string name="CoronaVirus">CoronaVirus</string>
+    <string name="purple_200">purple_200</string>
+    <string name="stayhome">stayhome</string>
+    <string name="login">login</string>
+    <string name="password">password</string>
+
+
 </resources>
