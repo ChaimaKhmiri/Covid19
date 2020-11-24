@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Covid19</string>
+    <string name="Sondage">Sondage"</string>
+    <string name="question1">Avez-vous été en contact avec des personnes ayant testé positif ou suspecte pour une infection au covid-19?</string>
+    <string name="question2">Avez-vous une maladie cardiaque ou une maladie plumonaire ou rénal ou diabéte ou des troubles immunitaires?</string>
+    <string name="question3">Avez-vous voyagé ou cours des 14 jours?</string>
+    <string name="question4">dautre information a ajouter? </string>
+    <string name="oui">oui</string>
+    <string name="non">non</string>
+
+</resources>

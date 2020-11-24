@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/question1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/question1"
+        android:textSize="23sp"
+        android:textStyle="bold" />
+
+    <RadioButton
+        android:id="@+id/radio1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/question1"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@+id/radio2"
+        android:text="@string/oui" />
+
+    <RadioButton
+        android:id="@+id/radio2"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/question1"
+        android:layout_alignParentRight="true"
+        android:text="@string/non" />
+
+    <TextView
+        android:id="@+id/question2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/question2"
+        android:layout_below="@id/radio1"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <RadioButton
+        android:id="@+id/radio3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/question2"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@+id/radio4"
+        android:text="@string/oui" />
+
+    <RadioButton
+        android:id="@+id/radio4"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/question2"
+        android:layout_alignParentRight="true"
+        android:text="@string/non" />
+
+    <TextView
+        android:id="@+id/question3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/question3"
+        android:layout_below="@id/radio4"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <RadioButton
+        android:id="@+id/radio5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/question3"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@+id/radio6"
+        android:text="@string/oui" />
+
+    <RadioButton
+        android:id="@+id/radio6"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/question3"
+        android:layout_alignParentRight="true"
+        android:text="@string/non" />
+
+    <TextView
+        android:id="@+id/question4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/question4"
+        android:layout_below="@id/radio6"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <RadioButton
+        android:id="@+id/radio7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/question4"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@+id/radio6"
+        android:text="@string/oui" />
+
+    <RadioButton
+        android:id="@+id/radio8"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/question4"
+        android:layout_alignParentRight="true"
+        android:text="@string/non" />
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="220dp"
+        android:layout_height="95dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:layout_marginEnd="64dp"
+        android:layout_marginBottom="209dp"
+        android:gravity="center"
+        android:text="envoyer "
+        android:textSize="22dp" />
+</RelativeLayout>
