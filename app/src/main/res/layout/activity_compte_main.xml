@@ -20,7 +20,7 @@
             android:layout_height="103dp"
             android:layout_contentDescription="logo"
             android:background="@color/vert"
-            android:padding="10dp"
+            android:padding="11dp"
             android:src="@drawable/logo"  />
     </LinearLayout>
 

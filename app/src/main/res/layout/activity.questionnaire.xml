@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FDFEFF"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@color/purple_200"
+        android:gravity="center"
+        android:text="@string/Sondage"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp">
+
+        <TextView
+            android:id="@+id/qst1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/qst1"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/radio1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/qst1"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@+id/radio2"
+            android:text="@string/oui" />
+
+        <RadioButton
+            android:id="@+id/radio2"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/qst1"
+            android:layout_alignParentRight="true"
+            android:text="@string/non" />
+
+        <TextView
+            android:id="@+id/qst2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/radio1"
+            android:text="@string/qst2"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/radio3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/qst2"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@+id/radio4"
+            android:text="@string/oui" />
+
+        <RadioButton
+            android:id="@+id/radio4"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/qst2"
+            android:layout_alignParentRight="true"
+            android:text="@string/non" />
+
+        <TextView
+            android:id="@+id/qst3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/radio4"
+            android:text="@string/qst3"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/radio5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/qst3"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@+id/radio6"
+            android:text="@string/oui" />
+
+        <RadioButton
+            android:id="@+id/radio6"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/qst3"
+            android:layout_alignParentRight="true"
+            android:text="@string/non" />
+
+        <TextView
+            android:id="@+id/qst4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/radio6"
+            android:text="@string/qst4"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/radio7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/qst4"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@+id/radio6"
+            android:text="@string/oui" />
+
+        <RadioButton
+            android:id="@+id/radio8"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/qst4"
+            android:layout_alignParentRight="true"
+            android:text="@string/non" />
+
+        <TextView
+            android:id="@+id/qst5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/radio7"
+            android:text="@string/qst5"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/radio9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/qst5"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@+id/radio8"
+            android:text="@string/oui" />
+
+        <RadioButton
+            android:id="@+id/radio10"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/qst5"
+            android:layout_alignParentRight="true"
+            android:text="@string/non" />
+
+    </RelativeLayout>
+</LinearLayout>
