@@ -19,6 +19,14 @@
     <string name="stayhome">stayhome</string>
     <string name="login">login</string>
     <string name="password">password</string>
-
+    <string name="app_name">Covid19</string>
+    <string name="Sondage">Sondage</string>
+    <string name="qst1">Avez-vous de la fièvre ou avez-vous ressenti de la fièvre récemment(14-21jours)?</string>
+    <string name="oui">oui</string>
+    <string name="non">non</string>
+    <string name="qst2">Avez-vous des essoufflements ou d\'autres difficultés à respirer?</string>
+    <string name="qst3">Avez-vous de la toux ou de la difficulté à avaler?</string>
+    <string name="qst4">Avez-vous d\'autres symptomes pseudo-grippaux, tels que troubles gastro-intestinaux, douleurs musculaires, maux de tete ou fatigue?</string>
+    <string name="qst5">Avez-vous récemment perdu le gout ou le sens d\'odorat?</string>
 
 </resources>
