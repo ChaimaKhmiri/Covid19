@@ -7,5 +7,8 @@
     <string name="question4">dautre information a ajouter? </string>
     <string name="oui">oui</string>
     <string name="non">non</string>
-
+    <string name="Email">Email</string>
+    <string name="MotdePasse">MotdePasse</string>
+    <string name="confirmerMotdePasse">confirmerMotdePasse</string>
+    <string name="logo">logo</string>
 </resources>
