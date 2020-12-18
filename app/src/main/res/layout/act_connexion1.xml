@@ -1,30 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_gravity="center"
+    android:gravity="center"
     android:orientation="vertical"
     tools:context=".MainActivity">
+
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
+        android:gravity="top"
         android:text="@string/CoronaVirus"
         android:textColor="@color/purple_200"
-        android:textSize="30sp"
+        android:textSize="40sp"
         android:textStyle="italic"
 
 
         />
-
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:layout_gravity="top"
-        android:contentDescription="@string/stayhome"
-        android:src="@drawable/stayhome" />
 
     <EditText
         android:text="@string/login"
@@ -33,27 +28,23 @@
 
 
     <EditText
-        android:text="@string/password"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:text="@string/password" />
+
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:gravity="left"
         android:text="@string/create"
-        android:gravity="right"
 
         />
+
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/connexion"
-        android:gravity="center"
-        />
-
-
-
-
-
+        android:gravity="right"
+        android:text="@string/connexion" />
 
 
 </LinearLayout>
