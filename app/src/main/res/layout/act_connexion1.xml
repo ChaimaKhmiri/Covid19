@@ -1,25 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:gravity="center"
     android:orientation="vertical"
+    android:background="@drawable/corona"
+    android:layout_margin="20dp"
     tools:context=".MainActivity">
 
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:gravity="top"
-        android:text="@string/CoronaVirus"
-        android:textColor="@color/purple_200"
-        android:textSize="40sp"
-        android:textStyle="italic"
-
-
-        />
 
     <EditText
         android:text="@string/login"
@@ -35,15 +25,11 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:gravity="left"
-        android:text="@string/create"
-
-        />
+        android:text="@string/create" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:gravity="right"
         android:text="@string/connexion" />
 
 
