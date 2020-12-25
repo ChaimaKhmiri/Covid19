@@ -19,6 +19,8 @@
     <string name="stayhome">stayhome</string>
     <string name="login">login</string>
     <string name="password">password</string>
+    <string name="ForgotPassword">Forgot Password?</string>
+    <string name="Copyright">©Copyright 2020</string>
     <string name="app_name">Covid19</string>
     <string name="Sondage">Sondage</string>
     <string name="qst1">Avez-vous de la fièvre ou avez-vous ressenti de la fièvre récemment(14-21jours)?</string>
