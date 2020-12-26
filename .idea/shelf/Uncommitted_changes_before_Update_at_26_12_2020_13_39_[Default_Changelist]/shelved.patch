@@ -1,0 +1,310 @@
+Index: app/src/main/res/layout/activity.questionnaire.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<LinearLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\r\n    android:layout_width=\"match_parent\"\r\n    android:layout_height=\"match_parent\"\r\n    android:background=\"#FDFEFF\"\r\n    android:orientation=\"vertical\">\r\n\r\n    <TextView\r\n        android:layout_width=\"match_parent\"\r\n        android:layout_height=\"wrap_content\"\r\n        android:layout_margin=\"10dp\"\r\n        android:background=\"@color/purple_200\"\r\n        android:gravity=\"center\"\r\n        android:text=\"@string/Sondage\"\r\n        android:textSize=\"30sp\"\r\n        android:textStyle=\"bold\" />\r\n\r\n    <RelativeLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\r\n        android:layout_width=\"match_parent\"\r\n        android:layout_height=\"match_parent\"\r\n        android:layout_gravity=\"center\"\r\n        android:gravity=\"center\"\r\n        android:orientation=\"vertical\"\r\n        android:paddingLeft=\"16dp\"\r\n        android:paddingRight=\"16dp\">\r\n\r\n        <TextView\r\n            android:id=\"@+id/qst1\"\r\n            android:layout_width=\"match_parent\"\r\n            android:layout_height=\"wrap_content\"\r\n            android:text=\"@string/qst1\"\r\n            android:textSize=\"20sp\"\r\n            android:textStyle=\"bold\" />\r\n\r\n        <RadioButton\r\n            android:id=\"@+id/radio1\"\r\n            android:layout_width=\"wrap_content\"\r\n            android:layout_height=\"wrap_content\"\r\n            android:layout_below=\"@id/qst1\"\r\n            android:layout_alignParentLeft=\"true\"\r\n            android:layout_toLeftOf=\"@+id/radio2\"\r\n            android:text=\"@string/oui\" />\r\n\r\n        <RadioButton\r\n            android:id=\"@+id/radio2\"\r\n            android:layout_width=\"190dp\"\r\n            android:layout_height=\"wrap_content\"\r\n            android:layout_below=\"@id/qst1\"\r\n            android:layout_alignParentRight=\"true\"\r\n            android:text=\"@string/non\" />\r\n\r\n        <TextView\r\n            android:id=\"@+id/qst2\"\r\n            android:layout_width=\"match_parent\"\r\n            android:layout_height=\"wrap_content\"\r\n            android:layout_below=\"@id/radio1\"\r\n            android:text=\"@string/qst2\"\r\n            android:textSize=\"20sp\"\r\n            android:textStyle=\"bold\" />\r\n\r\n        <RadioButton\r\n            android:id=\"@+id/radio3\"\r\n            android:layout_width=\"wrap_content\"\r\n            android:layout_height=\"wrap_content\"\r\n            android:layout_below=\"@id/qst2\"\r\n            android:layout_alignParentLeft=\"true\"\r\n            android:layout_toLeftOf=\"@+id/radio4\"\r\n            android:text=\"@string/oui\" />\r\n\r\n        <RadioButton\r\n            android:id=\"@+id/radio4\"\r\n            android:layout_width=\"190dp\"\r\n            android:layout_height=\"wrap_content\"\r\n            android:layout_below=\"@id/qst2\"\r\n            android:layout_alignParentRight=\"true\"\r\n            android:text=\"@string/non\" />\r\n\r\n        <TextView\r\n            android:id=\"@+id/qst3\"\r\n            android:layout_width=\"match_parent\"\r\n            android:layout_height=\"wrap_content\"\r\n            android:layout_below=\"@id/radio4\"\r\n            android:text=\"@string/qst3\"\r\n            android:textSize=\"20sp\"\r\n            android:textStyle=\"bold\" />\r\n\r\n        <RadioButton\r\n            android:id=\"@+id/radio5\"\r\n            android:layout_width=\"wrap_content\"\r\n            android:layout_height=\"wrap_content\"\r\n            android:layout_below=\"@id/qst3\"\r\n            android:layout_alignParentLeft=\"true\"\r\n            android:layout_toLeftOf=\"@+id/radio6\"\r\n            android:text=\"@string/oui\" />\r\n\r\n        <RadioButton\r\n            android:id=\"@+id/radio6\"\r\n            android:layout_width=\"190dp\"\r\n            android:layout_height=\"wrap_content\"\r\n            android:layout_below=\"@id/qst3\"\r\n            android:layout_alignParentRight=\"true\"\r\n            android:text=\"@string/non\" />\r\n\r\n        <TextView\r\n            android:id=\"@+id/qst4\"\r\n            android:layout_width=\"match_parent\"\r\n            android:layout_height=\"wrap_content\"\r\n            android:layout_below=\"@id/radio6\"\r\n            android:text=\"@string/qst4\"\r\n            android:textSize=\"20sp\"\r\n            android:textStyle=\"bold\" />\r\n\r\n        <RadioButton\r\n            android:id=\"@+id/radio7\"\r\n            android:layout_width=\"wrap_content\"\r\n            android:layout_height=\"wrap_content\"\r\n            android:layout_below=\"@id/qst4\"\r\n            android:layout_alignParentLeft=\"true\"\r\n            android:layout_toLeftOf=\"@+id/radio6\"\r\n            android:text=\"@string/oui\" />\r\n\r\n        <RadioButton\r\n            android:id=\"@+id/radio8\"\r\n            android:layout_width=\"190dp\"\r\n            android:layout_height=\"wrap_content\"\r\n            android:layout_below=\"@id/qst4\"\r\n            android:layout_alignParentRight=\"true\"\r\n            android:text=\"@string/non\" />\r\n\r\n        <TextView\r\n            android:id=\"@+id/qst5\"\r\n            android:layout_width=\"match_parent\"\r\n            android:layout_height=\"wrap_content\"\r\n            android:layout_below=\"@id/radio7\"\r\n            android:text=\"@string/qst5\"\r\n            android:textSize=\"20sp\"\r\n            android:textStyle=\"bold\" />\r\n\r\n        <RadioButton\r\n            android:id=\"@+id/radio9\"\r\n            android:layout_width=\"wrap_content\"\r\n            android:layout_height=\"wrap_content\"\r\n            android:layout_below=\"@id/qst5\"\r\n            android:layout_alignParentLeft=\"true\"\r\n            android:layout_toLeftOf=\"@+id/radio8\"\r\n            android:text=\"@string/oui\" />\r\n\r\n        <RadioButton\r\n            android:id=\"@+id/radio10\"\r\n            android:layout_width=\"190dp\"\r\n            android:layout_height=\"wrap_content\"\r\n            android:layout_below=\"@id/qst5\"\r\n            android:layout_alignParentRight=\"true\"\r\n            android:text=\"@string/non\" />\r\n\r\n    </RelativeLayout>\r\n</LinearLayout>\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/layout/activity.questionnaire.xml	(revision fb9f94322009cc671c8367ccbc6c295b098891c1)
++++ app/src/main/res/layout/activity.questionnaire.xml	(date 1608984092269)
+@@ -2,156 +2,189 @@
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+-    android:background="#FDFEFF"
++    android:background="@drawable/background"
+     android:orientation="vertical">
+ 
+     <TextView
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_margin="10dp"
+-        android:background="@color/purple_200"
+         android:gravity="center"
+         android:text="@string/Sondage"
+-        android:textSize="30sp"
+-        android:textStyle="bold" />
++        android:textColor="#FF018786"
++        android:textSize="35sp"
++        android:textStyle="normal" />
+ 
+-    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
++    <RelativeLayout
+         android:layout_width="match_parent"
+-        android:layout_height="match_parent"
++        android:layout_height="0dp"
+         android:layout_gravity="center"
+         android:gravity="center"
+         android:orientation="vertical"
+-        android:paddingLeft="16dp"
+-        android:paddingRight="16dp">
++        android:layout_weight="1">
+ 
+         <TextView
+             android:id="@+id/qst1"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
++            android:background="#FFB6B8"
+             android:text="@string/qst1"
+             android:textSize="20sp"
+-            android:textStyle="bold" />
++            android:textStyle="normal"
++            android:textColor="@color/black"/>
+ 
+         <RadioButton
+             android:id="@+id/radio1"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
++            android:layout_alignParentStart="true"
++            android:layout_toStartOf="@id/radio2"
+             android:layout_below="@id/qst1"
+-            android:layout_alignParentLeft="true"
+-            android:layout_toLeftOf="@+id/radio2"
+-            android:text="@string/oui" />
++            android:text="@string/oui"
++            android:textSize="18sp"/>
+ 
+         <RadioButton
+             android:id="@+id/radio2"
+             android:layout_width="190dp"
+             android:layout_height="wrap_content"
+             android:layout_below="@id/qst1"
+-            android:layout_alignParentRight="true"
+-            android:text="@string/non" />
++            android:layout_alignParentEnd="true"
++            android:text="@string/non"
++            android:textSize="18sp" />
+ 
+         <TextView
+             android:id="@+id/qst2"
+-            android:layout_width="match_parent"
++            android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
++            android:background="#FFB6B8"
+             android:layout_below="@id/radio1"
+             android:text="@string/qst2"
+             android:textSize="20sp"
+-            android:textStyle="bold" />
++            android:textStyle="normal"
++            android:textColor="@color/black"/>
+ 
+         <RadioButton
+             android:id="@+id/radio3"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_below="@id/qst2"
+-            android:layout_alignParentLeft="true"
+-            android:layout_toLeftOf="@+id/radio4"
+-            android:text="@string/oui" />
++            android:layout_alignParentStart="true"
++            android:layout_toStartOf="@+id/radio4"
++            android:text="@string/oui"
++            android:textSize="18sp"/>
+ 
+         <RadioButton
+             android:id="@+id/radio4"
+             android:layout_width="190dp"
+             android:layout_height="wrap_content"
+             android:layout_below="@id/qst2"
+-            android:layout_alignParentRight="true"
+-            android:text="@string/non" />
++            android:layout_alignParentEnd="true"
++            android:text="@string/non"
++            android:textSize="18sp"/>
+ 
+         <TextView
+             android:id="@+id/qst3"
+-            android:layout_width="match_parent"
++            android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
++            android:background="#FFB6B8 "
+             android:layout_below="@id/radio4"
+             android:text="@string/qst3"
+             android:textSize="20sp"
+-            android:textStyle="bold" />
++            android:textStyle="normal"
++            android:textColor="@color/black"/>
+ 
+         <RadioButton
+             android:id="@+id/radio5"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_below="@id/qst3"
+-            android:layout_alignParentLeft="true"
+-            android:layout_toLeftOf="@+id/radio6"
+-            android:text="@string/oui" />
++            android:layout_alignParentStart="true"
++            android:layout_toStartOf="@+id/radio6"
++            android:text="@string/oui"
++            android:textSize="18sp"/>
+ 
+         <RadioButton
+             android:id="@+id/radio6"
+             android:layout_width="190dp"
+             android:layout_height="wrap_content"
+             android:layout_below="@id/qst3"
+-            android:layout_alignParentRight="true"
+-            android:text="@string/non" />
++            android:layout_alignParentEnd="true"
++            android:text="@string/non"
++            android:textSize="18sp"/>
+ 
+         <TextView
+             android:id="@+id/qst4"
+-            android:layout_width="match_parent"
++            android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
++            android:background="#FFB6B8 "
+             android:layout_below="@id/radio6"
+             android:text="@string/qst4"
+             android:textSize="20sp"
+-            android:textStyle="bold" />
++            android:textStyle="normal"
++            android:textColor="@color/black"/>
+ 
+         <RadioButton
+             android:id="@+id/radio7"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_below="@id/qst4"
+-            android:layout_alignParentLeft="true"
+-            android:layout_toLeftOf="@+id/radio6"
+-            android:text="@string/oui" />
++            android:layout_alignParentStart="true"
++            android:layout_toStartOf="@+id/radio6"
++            android:text="@string/oui"
++            android:textSize="18sp"/>
+ 
+         <RadioButton
+             android:id="@+id/radio8"
+             android:layout_width="190dp"
+             android:layout_height="wrap_content"
+             android:layout_below="@id/qst4"
+-            android:layout_alignParentRight="true"
+-            android:text="@string/non" />
++            android:layout_alignParentEnd="true"
++            android:text="@string/non"
++            android:textSize="18sp"/>
+ 
+         <TextView
+             android:id="@+id/qst5"
+-            android:layout_width="match_parent"
++            android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
++            android:background="#FFB6B8 "
+             android:layout_below="@id/radio7"
+             android:text="@string/qst5"
+             android:textSize="20sp"
+-            android:textStyle="bold" />
++            android:textStyle="normal"
++            android:textColor="@color/black"/>
+ 
+         <RadioButton
+             android:id="@+id/radio9"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_below="@id/qst5"
+-            android:layout_alignParentLeft="true"
+-            android:layout_toLeftOf="@+id/radio8"
+-            android:text="@string/oui" />
++            android:layout_alignParentStart="true"
++            android:layout_toStartOf="@+id/radio8"
++            android:text="@string/oui"
++            android:textSize="18sp"/>
+ 
+         <RadioButton
+             android:id="@+id/radio10"
+             android:layout_width="190dp"
+             android:layout_height="wrap_content"
+             android:layout_below="@id/qst5"
+-            android:layout_alignParentRight="true"
+-            android:text="@string/non" />
++            android:layout_alignParentEnd="true"
++            android:text="@string/non"
++            android:textSize="18sp"
++            android:textStyle="bold"/>
+ 
+     </RelativeLayout>
++
++    <Button
++        android:id="@+id/bouton"
++        android:layout_width="wrap_content"
++        android:layout_height="wrap_content"
++        android:layout_gravity="center"
++        android:gravity="center"
++        android:text="@string/Suivant"
++        android:textSize="16sp"
++        android:textStyle="normal"
++        android:backgroundTint="@color/white"
++        android:textColor="#FF018786" />
++
+ </LinearLayout>
+Index: app/src/main/res/values/strings.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><resources>\r\n    <string name=\"app_name\">Covid19</string>\r\n    <string name=\"Sondage\">Sondage\"</string>\r\n    <string name=\"question1\">Avez-vous été en contact avec des personnes ayant testé positif ou suspecte pour une infection au covid-19?</string>\r\n    <string name=\"question2\">Avez-vous une maladie cardiaque ou une maladie plumonaire ou rénal ou diabéte ou des troubles immunitaires?</string>\r\n    <string name=\"question3\">Avez-vous voyagé ou cours des 14 jours?</string>\r\n    <string name=\"question4\">dautre information a ajouter? </string>\r\n    <string name=\"oui\">oui</string>\r\n    <string name=\"non\">non</string>\r\n    <string name=\"Email\">Email</string>\r\n    <string name=\"MotdePasse\">MotdePasse</string>\r\n    <string name=\"confirmerMotdePasse\">confirmerMotdePasse</string>\r\n    <string name=\"logo\">logo</string>\r\n    <string name=\"app_name\">khawla</string>\r\n    <string name=\"connexion\">connexion</string>\r\n    <string name=\"create\">create</string>\r\n    <string name=\"CoronaVirus\">CoronaVirus</string>\r\n    <string name=\"purple_200\">purple_200</string>\r\n    <string name=\"stayhome\">stayhome</string>\r\n    <string name=\"login\">login</string>\r\n    <string name=\"password\">password</string>\r\n    <string name=\"app_name\">Covid19</string>\r\n    <string name=\"Sondage\">Sondage</string>\r\n    <string name=\"qst1\">Avez-vous de la fièvre ou avez-vous ressenti de la fièvre récemment(14-21jours)?</string>\r\n    <string name=\"oui\">oui</string>\r\n    <string name=\"non\">non</string>\r\n    <string name=\"qst2\">Avez-vous des essoufflements ou d\\'autres difficultés à respirer?</string>\r\n    <string name=\"qst3\">Avez-vous de la toux ou de la difficulté à avaler?</string>\r\n    <string name=\"qst4\">Avez-vous d\\'autres symptomes pseudo-grippaux, tels que troubles gastro-intestinaux, douleurs musculaires, maux de tete ou fatigue?</string>\r\n    <string name=\"qst5\">Avez-vous récemment perdu le gout ou le sens d\\'odorat?</string>\r\n\r\n</resources>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/values/strings.xml	(revision fb9f94322009cc671c8367ccbc6c295b098891c1)
++++ app/src/main/res/values/strings.xml	(date 1608985522937)
+@@ -11,7 +11,6 @@
+     <string name="MotdePasse">MotdePasse</string>
+     <string name="confirmerMotdePasse">confirmerMotdePasse</string>
+     <string name="logo">logo</string>
+-    <string name="app_name">khawla</string>
+     <string name="connexion">connexion</string>
+     <string name="create">create</string>
+     <string name="CoronaVirus">CoronaVirus</string>
+@@ -19,14 +18,15 @@
+     <string name="stayhome">stayhome</string>
+     <string name="login">login</string>
+     <string name="password">password</string>
+-    <string name="app_name">Covid19</string>
+-    <string name="Sondage">Sondage</string>
+-    <string name="qst1">Avez-vous de la fièvre ou avez-vous ressenti de la fièvre récemment(14-21jours)?</string>
++    <string name="Sondage">TousAntiCovid</string>
++    <string name="qst1">1. Avez-vous de la fièvre ou avez-vous ressenti de la fièvre récemment(14-21jours)?</string>
+     <string name="oui">oui</string>
+     <string name="non">non</string>
+-    <string name="qst2">Avez-vous des essoufflements ou d\'autres difficultés à respirer?</string>
+-    <string name="qst3">Avez-vous de la toux ou de la difficulté à avaler?</string>
+-    <string name="qst4">Avez-vous d\'autres symptomes pseudo-grippaux, tels que troubles gastro-intestinaux, douleurs musculaires, maux de tete ou fatigue?</string>
+-    <string name="qst5">Avez-vous récemment perdu le gout ou le sens d\'odorat?</string>
++    <string name="qst2">2. Avez-vous des essoufflements ou d\'autres difficultés à respirer?</string>
++    <string name="qst3">3. Avez-vous de la toux ou de la difficulté à avaler?</string>
++    <string name="qst4">4. Avez-vous d\'autres symptomes pseudo-grippaux, tels que troubles gastro-intestinaux, douleurs musculaires, maux de tete ou fatigue?</string>
++    <string name="qst5">5. Avez-vous récemment perdu le gout ou le sens d\'odorat?</string>
++    <string name="Suivant">Suivant</string>
++
+ 
+ </resources>
+\ No newline at end of file
+Index: app/src/main/java/com/mdwg2/covid19/MainActivity.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.mdwg2.covid19;\r\n\r\nimport androidx.appcompat.app.AppCompatActivity;\r\n\r\nimport android.os.Bundle;\r\n\r\npublic class MainActivity extends AppCompatActivity {\r\n\r\n    @Override\r\n    protected void onCreate(Bundle savedInstanceState) {\r\n        super.onCreate(savedInstanceState);\r\n        setContentView(R.layout.activity_main);\r\n    }\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/com/mdwg2/covid19/MainActivity.java	(revision fb9f94322009cc671c8367ccbc6c295b098891c1)
++++ app/src/main/java/com/mdwg2/covid19/MainActivity.java	(date 1608984092409)
+@@ -1,14 +1,13 @@
+ package com.mdwg2.covid19;
+ 
+-import androidx.appcompat.app.AppCompatActivity;
+-
+ import android.os.Bundle;
+ 
+-public class MainActivity extends AppCompatActivity {
+-
++import androidx.appcompat.app.AppCompatActivity;
++public class MainActivity extends AppCompatActivity  {
+     @Override
+     protected void onCreate(Bundle savedInstanceState) {
+         super.onCreate(savedInstanceState);
+         setContentView(R.layout.activity_main);
++
+     }
+ }
+\ No newline at end of file
