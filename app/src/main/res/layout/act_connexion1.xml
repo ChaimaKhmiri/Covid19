@@ -15,8 +15,6 @@
         android:textColor="@color/purple_200"
         android:textSize="30sp"
         android:textStyle="italic"
-
-
         />
 
     <ImageView

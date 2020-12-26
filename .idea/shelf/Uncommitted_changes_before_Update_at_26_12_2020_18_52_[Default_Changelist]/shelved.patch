@@ -1,0 +1,35 @@
+Index: app/src/main/res/layout/act_connexion1.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<LinearLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\r\n    xmlns:tools=\"http://schemas.android.com/tools\"\r\n    android:layout_width=\"match_parent\"\r\n    android:layout_height=\"match_parent\"\r\n    android:layout_gravity=\"center\"\r\n    android:orientation=\"vertical\"\r\n    tools:context=\".MainActivity\">\r\n\r\n    <TextView\r\n        android:layout_width=\"wrap_content\"\r\n        android:layout_height=\"wrap_content\"\r\n        android:layout_gravity=\"center\"\r\n        android:text=\"@string/CoronaVirus\"\r\n        android:textColor=\"@color/purple_200\"\r\n        android:textSize=\"30sp\"\r\n        android:textStyle=\"italic\"\r\n\r\n\r\n        />\r\n\r\n    <ImageView\r\n        android:layout_width=\"match_parent\"\r\n        android:layout_height=\"100dp\"\r\n        android:layout_gravity=\"top\"\r\n        android:contentDescription=\"@string/stayhome\"\r\n        android:src=\"@drawable/stayhome\" />\r\n\r\n    <EditText\r\n        android:text=\"@string/login\"\r\n        android:layout_width=\"match_parent\"\r\n        android:layout_height=\"wrap_content\" />\r\n\r\n\r\n    <EditText\r\n        android:text=\"@string/password\"\r\n        android:layout_width=\"match_parent\"\r\n        android:layout_height=\"wrap_content\" />\r\n\r\n\r\n\r\n    <include layout=\"@layout/merge\" />\r\n\r\n\r\n\r\n</LinearLayout>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/layout/act_connexion1.xml	(revision 66b0708cd5e837062acdfecfb7f071ea8d40207c)
++++ app/src/main/res/layout/act_connexion1.xml	(date 1609004820039)
+@@ -15,8 +15,6 @@
+         android:textColor="@color/purple_200"
+         android:textSize="30sp"
+         android:textStyle="italic"
+-
+-
+         />
+ 
+     <ImageView
+Index: app/src/main/res/values/colors.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<resources>\r\n    <color name=\"colorPrimary\">#6200EE</color>\r\n    <color name=\"colorPrimaryDark\">#3700B3</color>\r\n    <color name=\"colorAccent\">#03DAC5</color>\r\n    <color name=\"vert\">#25FDE9</color>\r\n    <color name=\"purple_200\">#FFBB86FC</color>\r\n    <color name=\"purple_500\">#FF6200EE</color>\r\n    <color name=\"purple_700\">#FF3700B3</color>\r\n    <color name=\"teal_200\">#FF03DAC5</color>\r\n    <color name=\"teal_700\">#FF018786</color>\r\n    <color name=\"black\">#FF000000</color>\r\n    <color name=\"white\">#FFFFFFFF</color>\r\n</resources>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/values/colors.xml	(revision 66b0708cd5e837062acdfecfb7f071ea8d40207c)
++++ app/src/main/res/values/colors.xml	(date 1609005092646)
+@@ -11,4 +11,6 @@
+     <color name="teal_700">#FF018786</color>
+     <color name="black">#FF000000</color>
+     <color name="white">#FFFFFFFF</color>
++    <color name="vertt">#FF018786</color>
++    <color name="backg">#FFB6B8</color>
+ </resources>
+\ No newline at end of file
