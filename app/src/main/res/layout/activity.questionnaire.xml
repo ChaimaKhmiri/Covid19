@@ -185,6 +185,7 @@
         android:textSize="16sp"
         android:textStyle="normal"
         android:backgroundTint="@color/white"
-        android:textColor="#FF018786" />
+        android:textColor="#FF018786"
+        android:textColorLink="@color/black"/>
 
 </LinearLayout>
