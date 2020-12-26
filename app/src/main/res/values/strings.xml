@@ -7,6 +7,7 @@
     <string name="question4">dautre information a ajouter? </string>
     <string name="oui">oui</string>
     <string name="non">non</string>
+    <string name="app_name">Covid19</string>
     <string name="login">Email</string>
     <string name="password">Mot de Passe</string>
     <string name="validate">Confirmer mot de passe</string>
