@@ -1,0 +1,15 @@
+Index: app/src/main/res/values/strings.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/values/strings.xml	(revision 7f5d8e974a9b616a6d4dbbcb3dd50d0a263f1c5c)
++++ app/src/main/res/values/strings.xml	(date 1608987239359)
+@@ -7,6 +7,7 @@
+     <string name="question4">dautre information a ajouter? </string>
+     <string name="oui">oui</string>
+     <string name="non">non</string>
++    <string name="app_name">Covid19</string>
+     <string name="login">Email</string>
+     <string name="password">Mot de Passe</string>
+     <string name="validate">Confirmer mot de passe</string>
