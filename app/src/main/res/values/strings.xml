@@ -7,11 +7,23 @@
     <string name="question4">dautre information a ajouter? </string>
     <string name="oui">oui</string>
     <string name="non">non</string>
-    <string name="Email">Email</string>
-    <string name="MotdePasse">MotdePasse</string>
-    <string name="confirmerMotdePasse">confirmerMotdePasse</string>
+    <string name="app_name">Covid19</string>
+    <string name="login">Email</string>
+    <string name="password">Mot de Passe</string>
+    <string name="validate">Confirmer mot de passe</string>
+    <string name="your_name">Votre nom</string>
+    <string name="last_name">Prenom</string>
+    <string name="your_last_name"> Votre prenom</string>
+    <string name="name">Nom</string>
+    <string name="logo2">logo</string>
+    <string name="your_login">Votre email</string>
+    <string name="location">Votre adresse</string>
+    <string name="your_location">Adresse</string>
+    <string name="Save">Soumettre</string>
+    <string name="confirmation">Votre mot de passe</string>
+    <string name="enter">Retaper le mot de passe</string>
+    <string name="create_acount">CREER UN COMPTE</string>
     <string name="logo">logo</string>
-    <string name="app_name">khawla</string>
     <string name="connexion">connexion</string>
     <string name="create">create</string>
     <string name="CoronaVirus">CoronaVirus</string>
@@ -19,16 +31,15 @@
     <string name="stayhome">stayhome</string>
     <string name="login">login</string>
     <string name="password">password</string>
-    <string name="ForgotPassword">Forgot Password?</string>
-    <string name="Copyright">©Copyright 2020</string>
-    <string name="app_name">Covid19</string>
-    <string name="Sondage">Sondage</string>
-    <string name="qst1">Avez-vous de la fièvre ou avez-vous ressenti de la fièvre récemment(14-21jours)?</string>
+    <string name="Sondage">TousAntiCovid</string>
+    <string name="qst1">1. Avez-vous de la fièvre ou avez-vous ressenti de la fièvre récemment(14-21jours)?</string>
     <string name="oui">oui</string>
     <string name="non">non</string>
-    <string name="qst2">Avez-vous des essoufflements ou d\'autres difficultés à respirer?</string>
-    <string name="qst3">Avez-vous de la toux ou de la difficulté à avaler?</string>
-    <string name="qst4">Avez-vous d\'autres symptomes pseudo-grippaux, tels que troubles gastro-intestinaux, douleurs musculaires, maux de tete ou fatigue?</string>
-    <string name="qst5">Avez-vous récemment perdu le gout ou le sens d\'odorat?</string>
+    <string name="qst2">2. Avez-vous des essoufflements ou d\'autres difficultés à respirer?</string>
+    <string name="qst3">3. Avez-vous de la toux ou de la difficulté à avaler?</string>
+    <string name="qst4">4. Avez-vous d\'autres symptomes pseudo-grippaux, tels que troubles gastro-intestinaux, douleurs musculaires, maux de tete ou fatigue?</string>
+    <string name="qst5">5. Avez-vous récemment perdu le gout ou le sens d\'odorat?</string>
+    <string name="Suivant">Suivant</string>
+
 
 </resources>
