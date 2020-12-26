@@ -1,15 +1,12 @@
-package com.mdw31g5.covid19;
-
+package com.mdwg2.covid19;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import java.awt.Button;
 
 import javax.swing.text.View;
-import android.os.Bundle;
 import android.content.Intent;
-import android.view.View;
-import android.widget.Button;
+import android.os.Bundle;
 import android.widget.Toast;
 
 
