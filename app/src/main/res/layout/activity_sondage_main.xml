@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
+    android:background="@drawable/ml"
     android:paddingLeft="20dp"
     android:paddingRight="20dp"
-    android:layout_gravity="center"
     android:gravity="center"
     android:orientation="vertical">
 
@@ -22,17 +23,17 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/question1"
-        android:layout_alignParentLeft="true"
-        android:layout_toLeftOf="@+id/radio2"
-        android:text="@string/oui" />
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/radio2"
+        android:text="@string/yes" />
 
     <RadioButton
         android:id="@+id/radio2"
         android:layout_width="190dp"
         android:layout_height="wrap_content"
         android:layout_below="@id/question1"
-        android:layout_alignParentRight="true"
-        android:text="@string/non" />
+        android:layout_alignParentEnd="true"
+        android:text="@string/no" />
 
     <TextView
         android:id="@+id/question2"
@@ -48,17 +49,17 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/question2"
-        android:layout_alignParentLeft="true"
-        android:layout_toLeftOf="@+id/radio4"
-        android:text="@string/oui" />
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/radio4"
+        android:text="@string/yes" />
 
     <RadioButton
         android:id="@+id/radio4"
         android:layout_width="190dp"
         android:layout_height="wrap_content"
         android:layout_below="@id/question2"
-        android:layout_alignParentRight="true"
-        android:text="@string/non" />
+        android:layout_alignParentEnd="true"
+        android:text="@string/no" />
 
     <TextView
         android:id="@+id/question3"
@@ -74,17 +75,17 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/question3"
-        android:layout_alignParentLeft="true"
-        android:layout_toLeftOf="@+id/radio6"
-        android:text="@string/oui" />
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/radio6"
+        android:text="@string/yes" />
 
     <RadioButton
         android:id="@+id/radio6"
         android:layout_width="190dp"
         android:layout_height="wrap_content"
         android:layout_below="@id/question3"
-        android:layout_alignParentRight="true"
-        android:text="@string/non" />
+        android:layout_alignParentEnd="true"
+        android:text="@string/no" />
 
     <TextView
         android:id="@+id/question4"
@@ -100,20 +101,20 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/question4"
-        android:layout_alignParentLeft="true"
-        android:layout_toLeftOf="@+id/radio6"
-        android:text="@string/oui" />
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/radio6"
+        android:text="@string/yes" />
 
     <RadioButton
         android:id="@+id/radio8"
         android:layout_width="190dp"
         android:layout_height="wrap_content"
         android:layout_below="@id/question4"
-        android:layout_alignParentRight="true"
-        android:text="@string/non" />
+        android:layout_alignParentEnd="true" />
     <Space
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        tools:targetApi="ice_cream_sandwich" />
 
     <Button
         android:id="@+id/button"
@@ -125,6 +126,6 @@
         android:layout_marginEnd="64dp"
         android:layout_marginBottom="209dp"
         android:gravity="center"
-        android:text="envoyer "
-        android:textSize="22dp" />
+        android:text="@string/to_send"
+        android:textSize="22sp" />
 </RelativeLayout>
