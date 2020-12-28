@@ -3,6 +3,10 @@ package com.mdwg2.covid19;
 import androidx.appcompat.app.AppCompatActivity;
 
 import java.awt.Button;
+import android.content.Intent;
+import android.widget.Toast;
+import android.view.View;
+import android.os.Bundle;
 
 import javax.swing.text.View;
 
