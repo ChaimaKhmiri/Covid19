@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background"
@@ -10,8 +11,8 @@
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
         android:gravity="center"
-        android:text="@string/Sondage"
-        android:textColor="#FF018786"
+        android:text="@string/survey"
+        android:textColor="@color/green"
         android:textSize="35sp"
         android:textStyle="normal" />
 
@@ -24,167 +25,168 @@
         android:layout_weight="1">
 
         <TextView
-            android:id="@+id/qst1"
+            android:id="@+id/question_one"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#FFB6B8"
-            android:text="@string/qst1"
+            android:background="@color/pink"
+            android:text="@string/question_one"
             android:textSize="20sp"
             android:textStyle="normal"
             android:textColor="@color/black"/>
 
         <RadioButton
-            android:id="@+id/radio1"
+            android:id="@+id/Radio_Button_one"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
-            android:layout_toStartOf="@id/radio2"
-            android:layout_below="@id/qst1"
-            android:text="@string/oui"
+            android:layout_toStartOf="@id/Radio_Button_two"
+            android:layout_below="@id/question_one"
+            android:text="@string/yes"
             android:textSize="18sp"/>
 
         <RadioButton
-            android:id="@+id/radio2"
+            android:id="@+id/Radio_Button_two"
             android:layout_width="190dp"
             android:layout_height="wrap_content"
-            android:layout_below="@id/qst1"
+            android:layout_below="@id/question_one"
             android:layout_alignParentEnd="true"
-            android:text="@string/non"
+            android:text="@string/no"
             android:textSize="18sp" />
 
         <TextView
-            android:id="@+id/qst2"
+            android:id="@+id/question_two"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="#FFB6B8"
-            android:layout_below="@id/radio1"
-            android:text="@string/qst2"
+            android:background="@color/pink"
+            android:layout_below="@id/Radio_Button_one"
+            android:text="@string/question_two"
             android:textSize="20sp"
             android:textStyle="normal"
             android:textColor="@color/black"/>
 
         <RadioButton
-            android:id="@+id/radio3"
+            android:id="@+id/Radio_Button_three"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/qst2"
+            android:layout_below="@id/question_two"
             android:layout_alignParentStart="true"
-            android:layout_toStartOf="@+id/radio4"
-            android:text="@string/oui"
+            android:layout_toStartOf="@+id/Radio_Button_four"
+            android:text="@string/yes"
             android:textSize="18sp"/>
 
         <RadioButton
-            android:id="@+id/radio4"
+            android:id="@+id/Radio_Button_four"
             android:layout_width="190dp"
             android:layout_height="wrap_content"
-            android:layout_below="@id/qst2"
+            android:layout_below="@id/question_two"
             android:layout_alignParentEnd="true"
-            android:text="@string/non"
+            android:text="@string/no"
             android:textSize="18sp"/>
 
         <TextView
-            android:id="@+id/qst3"
+            android:id="@+id/question_three"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="#FFB6B8 "
-            android:layout_below="@id/radio4"
-            android:text="@string/qst3"
+            android:background="@color/pink"
+            android:layout_below="@id/Radio_Button_four"
+            android:text="@string/question_three"
             android:textSize="20sp"
             android:textStyle="normal"
             android:textColor="@color/black"/>
 
         <RadioButton
-            android:id="@+id/radio5"
+            android:id="@+id/Radio_Button_five"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/qst3"
+            android:layout_below="@id/question_three"
             android:layout_alignParentStart="true"
-            android:layout_toStartOf="@+id/radio6"
-            android:text="@string/oui"
+            android:layout_toStartOf="@+id/Radio_Button_six"
+            android:text="@string/yes"
             android:textSize="18sp"/>
 
         <RadioButton
-            android:id="@+id/radio6"
+            android:id="@+id/Radio_Button_six"
             android:layout_width="190dp"
             android:layout_height="wrap_content"
-            android:layout_below="@id/qst3"
+            android:layout_below="@id/question_three"
             android:layout_alignParentEnd="true"
-            android:text="@string/non"
+            android:text="@string/no"
             android:textSize="18sp"/>
 
         <TextView
-            android:id="@+id/qst4"
+            android:id="@+id/question_four"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="#FFB6B8 "
-            android:layout_below="@id/radio6"
-            android:text="@string/qst4"
+            android:background="@color/pink"
+            android:layout_below="@id/Radio_Button_six"
+            android:text="@string/question_four"
             android:textSize="20sp"
             android:textStyle="normal"
             android:textColor="@color/black"/>
 
         <RadioButton
-            android:id="@+id/radio7"
+            android:id="@+id/Radio_Button_seven"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/qst4"
+            android:layout_below="@id/question_four"
             android:layout_alignParentStart="true"
-            android:layout_toStartOf="@+id/radio6"
-            android:text="@string/oui"
+            android:layout_toStartOf="@+id/Radio_Button_six"
+            android:text="@string/yes"
             android:textSize="18sp"/>
 
         <RadioButton
-            android:id="@+id/radio8"
+            android:id="@+id/Radio_Button_eight"
             android:layout_width="190dp"
             android:layout_height="wrap_content"
-            android:layout_below="@id/qst4"
+            android:layout_below="@id/question_four"
             android:layout_alignParentEnd="true"
-            android:text="@string/non"
+            android:text="@string/no"
             android:textSize="18sp"/>
 
         <TextView
-            android:id="@+id/qst5"
+            android:id="@+id/question_five"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="#FFB6B8 "
-            android:layout_below="@id/radio7"
-            android:text="@string/qst5"
+            android:background="@color/pink"
+            android:layout_below="@id/Radio_Button_seven"
+            android:text="@string/question_five"
             android:textSize="20sp"
             android:textStyle="normal"
             android:textColor="@color/black"/>
 
         <RadioButton
-            android:id="@+id/radio9"
+            android:id="@+id/Radio_Button_nine"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/qst5"
+            android:layout_below="@id/question_five"
             android:layout_alignParentStart="true"
-            android:layout_toStartOf="@+id/radio8"
-            android:text="@string/oui"
+            android:layout_toStartOf="@+id/Radio_Button_eight"
+            android:text="@string/yes"
             android:textSize="18sp"/>
 
         <RadioButton
-            android:id="@+id/radio10"
+            android:id="@+id/Radio_Button_ten"
             android:layout_width="190dp"
             android:layout_height="wrap_content"
-            android:layout_below="@id/qst5"
+            android:layout_below="@id/question_five"
             android:layout_alignParentEnd="true"
-            android:text="@string/non"
+            android:text="@string/no"
             android:textSize="18sp"
             android:textStyle="bold"/>
 
     </RelativeLayout>
 
     <Button
-        android:id="@+id/bouton"
+        android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:gravity="center"
-        android:text="@string/Suivant"
+        android:text="@string/next"
         android:textSize="16sp"
         android:textStyle="normal"
         android:backgroundTint="@color/white"
-        android:textColor="#FF018786" />
+        android:textColor="@color/green"
+        tools:targetApi="lollipop" />
 
 </LinearLayout>
