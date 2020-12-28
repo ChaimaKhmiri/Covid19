@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Covid19</string>
-    <string name="Sondage">sondage</string>
-    <string name="question1">question1</string>
+       <string name="question1">question1</string>
     <string name="question2">question2</string>
     <string name="question3">question3</string>
     <string name="question4">question4</string>
-    <string name="oui">oui</string>
-    <string name="non">non</string>
+    <string name="yes">oui</string>
+    <string name="no">non</string>
     <string name="login">connexion</string>
     <string name="password">mot de passe</string>
     <string name="validate">validation</string>
@@ -31,10 +30,11 @@
     <string name="stayhome">rester dans la maison</string>
     <string name="ForgotPassword">oublier mot passe</string>
     <string name="Copyright">"copier "</string>
-    <string name="qst1">question1</string>
-    <string name="qst2">question2</string>
-    <string name="qst3">question3</string>
-    <string name="qst4">question4</string>
-    <string name="qst5">question5</string>
-    <string name="Suivant">suivante</string>
+    <string name="survey">Tous Anti Covid</string>
+    <string name="question_one">1. Avez-vous de la fièvre ou avez-vous ressenti de la fièvre récemment(14-21jours)?</string>
+    <string name="question_two">2. Avez-vous des essoufflements ou d\'autres difficultés à respirer?</string>
+    <string name="question_three">3. Avez-vous de la toux ou de la difficulté à avaler?</string>
+    <string name="question_four">4. Avez-vous d\'autres symptomes pseudo-grippaux, tels que troubles gastro-intestinaux, douleurs musculaires, maux de tete ou fatigue?</string>
+    <string name="question_five">5. Avez-vous récemment perdu le gout ou le sens d\'odorat?</string>
+    <string name="next">Suivant</string>
 </resources>
