@@ -3,42 +3,52 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_gravity="center"
     android:orientation="vertical"
+    android:background="@drawable/back"
+    android:layout_margin="20dp"
     tools:context=".MainActivity">
+    <include layout="@layout/toolbar"></include>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:text="@string/CoronaVirus"
-        android:textColor="@color/purple_200"
-        android:textSize="30sp"
-        android:textStyle="italic"
-        />
 
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:layout_gravity="top"
-        android:contentDescription="@string/stayhome"
-        android:src="@drawable/stayhome" />
 
     <EditText
         android:text="@string/login"
+        android:layout_marginTop="160dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
 
     <EditText
-        android:text="@string/password"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:text="@string/password" />
 
 
 
-    <include layout="@layout/merge" />
 
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:id="@+id/connexion"
+        android:text="@string/connexion" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ForgotPassword" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:id="@+id/create"
+        android:text="@string/create" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:gravity="center"
+        android:text="@string/Copyright" />
 
 
 </LinearLayout>
