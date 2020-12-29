@@ -10,7 +10,6 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
-import android.widget.TextView;
 import android.widget.Toast;
 
 
@@ -23,7 +22,7 @@ public class CreateActivity extends AppCompatActivity implements View.OnClickLis
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_account);
         my_button = findViewById(R.id.my_button);
         my_button.setOnClickListener(this);
     }
