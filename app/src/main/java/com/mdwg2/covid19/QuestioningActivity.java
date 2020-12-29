@@ -21,8 +21,8 @@ public class QuestioningActivity extends AppCompatActivity {
             public void onClick(View v) {
                 if (v.getId() == R.id.button) {
                     Toast.makeText(getApplicationContext(), "you clicked the Next button", Toast.LENGTH_SHORT).show();
-                    Intent sondage = new Intent(this, activity_sondage_main.Class);
-                    startActivity(sondage);
+                    Intent survey = new Intent(this, activity_sondage_main.Class);
+                    startActivity(survey);
 
                 }}
         });}}

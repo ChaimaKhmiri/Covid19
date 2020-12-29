@@ -1,12 +1,12 @@
 <resources>
     <string name="app_name">Covid19</string>
-    <string name="Sondage">Sondage"</string>
+    <string name="survey">Tous Anti Covid</string>
     <string name="question1">Avez-vous été en contact avec des personnes ayant testé positif ou suspecte pour une infection au covid-19?</string>
     <string name="question2">Avez-vous une maladie cardiaque ou une maladie plumonaire ou rénal ou diabéte ou des troubles immunitaires?</string>
     <string name="question3">Avez-vous voyagé ou cours des 14 jours?</string>
     <string name="question4">dautre information a ajouter? </string>
-    <string name="oui">oui</string>
-    <string name="non">non</string>
+    <string name="yes">yes</string>
+    <string name="no">no</string>
     <string name="validate">Confirmer mot de passe</string>
     <string name="your_name">Votre nom</string>
     <string name="last_name">Prenom</string>
@@ -28,12 +28,12 @@
     <string name="stayhome">stayhome</string>
     <string name="login">login</string>
     <string name="password">password</string>
-    <string name="qst1">1. Avez-vous de la fièvre ou avez-vous ressenti de la fièvre récemment(14-21jours)?</string>
-    <string name="qst2">2. Avez-vous des essoufflements ou d\'autres difficultés à respirer?</string>
-    <string name="qst3">3. Avez-vous de la toux ou de la difficulté à avaler?</string>
-    <string name="qst4">4. Avez-vous d\'autres symptomes pseudo-grippaux, tels que troubles gastro-intestinaux, douleurs musculaires, maux de tete ou fatigue?</string>
-    <string name="qst5">5. Avez-vous récemment perdu le gout ou le sens d\'odorat?</string>
-    <string name="Suivant">Suivant</string>
+    <string name="question_one">1. Do you have a fever or have you recently had a fever (14–21 days)?</string>
+    <string name="question_two">2. Do you have shortness of breath or other difficulty breathing?</string>
+    <string name="question_three">3. Do you have a cough or difficulty swallowing?</string>
+    <string name="question_four">4. Do you have other flu-like symptoms, such as gastrointestinal upset, muscle pain, headache, or fatigue?</string>
+    <string name="question_five">5. Have you recently lost your taste or sense of smell?</string>
+    <string name="next">Next</string>
     <string name="ForgotPassword">oublier mot passe</string>
     <string name="Copyright">copier</string>
 
