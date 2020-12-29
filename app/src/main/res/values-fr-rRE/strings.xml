@@ -5,8 +5,6 @@
     <string name="question2">question2</string>
     <string name="question3">question3</string>
     <string name="question4">question4</string>
-    <string name="yes">oui</string>
-    <string name="no">non</string>
     <string name="login">connexion</string>
     <string name="password">Mot de passe</string>
     <string name="confirmation">Confirmer votre mot de passe </string>
@@ -34,6 +32,8 @@
 
     <string name="survey">Tous Anti Covid</string>
     <string name="question_one">1. Avez-vous de la fièvre ou avez-vous ressenti de la fièvre récemment(14-21jours)?</string>
+    <string name="yes">oui</string>
+    <string name="no">non</string>
     <string name="question_two">2. Avez-vous des essoufflements ou d\'autres difficultés à respirer?</string>
     <string name="question_three">3. Avez-vous de la toux ou de la difficulté à avaler?</string>
     <string name="question_four">4. Avez-vous d\'autres symptomes pseudo-grippaux, tels que troubles gastro-intestinaux, douleurs musculaires, maux de tete ou fatigue?</string>
