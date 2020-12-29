@@ -28,7 +28,7 @@ import android.widget.Toast;
         public void onClick(View v) {
             if (v.getId() == R.id.button1) {
                 Toast.makeText(getApplicationContext(), "start now", Toast.LENGTH_SHORT).show();
-                Intent Start = new Intent(this, act_connexion1.Class);
+                Intent Start = new Intent(this,act_connexion1.Class);
                 startActivity(Start);
             }
         }
