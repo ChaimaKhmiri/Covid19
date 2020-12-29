@@ -31,8 +31,8 @@ public class CreateActivity extends AppCompatActivity implements View.OnClickLis
 
     public void onClick (View v){
         if (v.getId() == R.id.my_button ) {
-            Toast.makeText(getApplicationContext(), "vous avez cliquer sur le bouton Sauvegarder", Toast.LENGTH_SHORT).show();
-            Intent create = new Intent(this, activity_questionnement.Class);
+            Toast.makeText(getApplicationContext(), "You clicked on the save button", Toast.LENGTH_SHORT).show();
+            Intent create = new Intent(this, activity_questioning.Class);
             startActivity(create);
         }
     }
