@@ -1,0 +1,455 @@
+Index: app/src/main/res/values-fr-rRE/strings.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<resources>\r\n    <string name=\"app_name\">Covid19</string>\r\n    <string name=\"Sondage\">sondage</string>\r\n    <string name=\"question1\">question1</string>\r\n    <string name=\"question2\">question2</string>\r\n    <string name=\"question3\">question3</string>\r\n    <string name=\"question4\">question4</string>\r\n    <string name=\"oui\">oui</string>\r\n    <string name=\"non\">non</string>\r\n    <string name=\"login\">connexion</string>\r\n    <string name=\"password\">mot de passe</string>\r\n    <string name=\"validate\">validation</string>\r\n    <string name=\"your_name\">nom</string>\r\n    <string name=\"last_name\">prenom</string>\r\n    <string name=\"your_last_name\">nom</string>\r\n    <string name=\"name\">prenom</string>\r\n    <string name=\"logo2\">connexion</string>\r\n    <string name=\"your_login\">connexion</string>\r\n    <string name=\"location\">localisation</string>\r\n    <string name=\"your_location\">adresse</string>\r\n    <string name=\"Save\">sauvgarder</string>\r\n    <string name=\"confirmation\">confirmation</string>\r\n    <string name=\"enter\">entrer</string>\r\n    <string name=\"create_acount\">cree compte</string>\r\n    <string name=\"logo\">logo</string>\r\n    <string name=\"connexion\">connexion</string>\r\n    <string name=\"create\">creation</string>\r\n    <string name=\"CoronaVirus\">virus corona</string>\r\n    <string name=\"purple_200\">purpule</string>\r\n    <string name=\"stayhome\">rester dans la maison</string>\r\n    <string name=\"ForgotPassword\">oublier mot passe</string>\r\n    <string name=\"Copyright\">\"copier \"</string>\r\n    <string name=\"qst1\">question1</string>\r\n    <string name=\"qst2\">question2</string>\r\n    <string name=\"qst3\">question3</string>\r\n    <string name=\"qst4\">question4</string>\r\n    <string name=\"qst5\">question5</string>\r\n    <string name=\"Suivant\">suivante</string>\r\n</resources>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/values-fr-rRE/strings.xml	(revision 957298deeb6131a726211266891eb4473b2bd40f)
++++ app/src/main/res/values-fr-rRE/strings.xml	(date 1609169127927)
+@@ -9,20 +9,22 @@
+     <string name="oui">oui</string>
+     <string name="non">non</string>
+     <string name="login">connexion</string>
+-    <string name="password">mot de passe</string>
+-    <string name="validate">validation</string>
+-    <string name="your_name">nom</string>
+-    <string name="last_name">prenom</string>
+-    <string name="your_last_name">nom</string>
+-    <string name="name">prenom</string>
+-    <string name="logo2">connexion</string>
+-    <string name="your_login">connexion</string>
+-    <string name="location">localisation</string>
+-    <string name="your_location">adresse</string>
+-    <string name="Save">sauvgarder</string>
+-    <string name="confirmation">confirmation</string>
+-    <string name="enter">entrer</string>
+-    <string name="create_acount">cree compte</string>
++    <string name="password">Mot de passe</string>
++    <string name="confirmation">Confirmer votre mot de passe </string>
++    <string name="your_name">Votre nom</string>
++    <string name="last_name">Prenom</string>
++    <string name="name">Nom</string>
++    <string name="your_last_name">Votre prenom</string>
++    <string name="email">Email</string>
++    <string name="logo">connexion</string>
++    <string name="your_email">Votre email</string>
++    <string name="location">Adresse</string>
++    <string name="your_location">Votre adresse</string>
++    <string name="Save">Sauvegarde</string>
++    <string name="confirmation">Retaper votre mot de passe</string>
++    <string name="enter">Confirmer votre mot de passe</string>
++    <string name="your_password"> Votre mot de passe</string>
++    <string name="create_account">CREER VOTRE COMPTE</string>
+     <string name="logo">logo</string>
+     <string name="connexion">connexion</string>
+     <string name="create">creation</string>
+Index: app/src/main/res/values/colors.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<resources>\r\n    <color name=\"colorPrimary\">#6200EE</color>\r\n    <color name=\"colorPrimaryDark\">#3700B3</color>\r\n    <color name=\"colorAccent\">#03DAC5</color>\r\n    <color name=\"vert\">#25FDE9</color>\r\n    <color name=\"purple_200\">#FFBB86FC</color>\r\n    <color name=\"purple_500\">#FF6200EE</color>\r\n    <color name=\"purple_700\">#FF3700B3</color>\r\n    <color name=\"teal_200\">#FF03DAC5</color>\r\n    <color name=\"teal_700\">#FF018786</color>\r\n    <color name=\"black\">#FF000000</color>\r\n    <color name=\"white\">#FFFFFFFF</color>\r\n    <color name=\"green\">#FF018786</color>\r\n    <color name=\"pink\">#FFB6B8</color>\r\n</resources>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/values/colors.xml	(revision 957298deeb6131a726211266891eb4473b2bd40f)
++++ app/src/main/res/values/colors.xml	(date 1609169126410)
+@@ -3,7 +3,6 @@
+     <color name="colorPrimary">#6200EE</color>
+     <color name="colorPrimaryDark">#3700B3</color>
+     <color name="colorAccent">#03DAC5</color>
+-    <color name="vert">#25FDE9</color>
+     <color name="purple_200">#FFBB86FC</color>
+     <color name="purple_500">#FF6200EE</color>
+     <color name="purple_700">#FF3700B3</color>
+@@ -12,5 +11,6 @@
+     <color name="black">#FF000000</color>
+     <color name="white">#FFFFFFFF</color>
+     <color name="green">#FF018786</color>
+-    <color name="pink">#FFB6B8</color>
++    <color name="pink">#fec5d9</color>
++    <color name="gray">#808080</color>
+ </resources>
+\ No newline at end of file
+Index: app/src/main/res/values/strings.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><resources>\r\n    <string name=\"app_name\">Covid19</string>\r\n    <string name=\"Sondage\">Sondage\"</string>\r\n    <string name=\"question1\">Avez-vous été en contact avec des personnes ayant testé positif ou suspecte pour une infection au covid-19?</string>\r\n    <string name=\"question2\">Avez-vous une maladie cardiaque ou une maladie plumonaire ou rénal ou diabéte ou des troubles immunitaires?</string>\r\n    <string name=\"question3\">Avez-vous voyagé ou cours des 14 jours?</string>\r\n    <string name=\"question4\">dautre information a ajouter? </string>\r\n    <string name=\"oui\">oui</string>\r\n    <string name=\"non\">non</string>\r\n    <string name=\"validate\">Confirmer mot de passe</string>\r\n    <string name=\"your_name\">Votre nom</string>\r\n    <string name=\"last_name\">Prenom</string>\r\n    <string name=\"your_last_name\"> Votre prenom</string>\r\n    <string name=\"name\">Nom</string>\r\n    <string name=\"logo2\">logo</string>\r\n    <string name=\"your_login\">Votre email</string>\r\n    <string name=\"location\">Votre adresse</string>\r\n    <string name=\"your_location\">Adresse</string>\r\n    <string name=\"Save\">Soumettre</string>\r\n    <string name=\"confirmation\">Votre mot de passe</string>\r\n    <string name=\"enter\">Retaper le mot de passe</string>\r\n    <string name=\"create_acount\">CREER UN COMPTE</string>\r\n    <string name=\"logo\">logo</string>\r\n    <string name=\"connexion\">connexion</string>\r\n    <string name=\"create\">create</string>\r\n    <string name=\"CoronaVirus\">CoronaVirus</string>\r\n    <string name=\"purple_200\">purple_200</string>\r\n    <string name=\"stayhome\">stayhome</string>\r\n    <string name=\"login\">login</string>\r\n    <string name=\"password\">password</string>\r\n    <string name=\"qst1\">1. Avez-vous de la fièvre ou avez-vous ressenti de la fièvre récemment(14-21jours)?</string>\r\n    <string name=\"qst2\">2. Avez-vous des essoufflements ou d\\'autres difficultés à respirer?</string>\r\n    <string name=\"qst3\">3. Avez-vous de la toux ou de la difficulté à avaler?</string>\r\n    <string name=\"qst4\">4. Avez-vous d\\'autres symptomes pseudo-grippaux, tels que troubles gastro-intestinaux, douleurs musculaires, maux de tete ou fatigue?</string>\r\n    <string name=\"qst5\">5. Avez-vous récemment perdu le gout ou le sens d\\'odorat?</string>\r\n    <string name=\"Suivant\">Suivant</string>\r\n    <string name=\"ForgotPassword\">oublier mot passe</string>\r\n    <string name=\"Copyright\">copier</string>\r\n\r\n\r\n</resources>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/values/strings.xml	(revision 957298deeb6131a726211266891eb4473b2bd40f)
++++ app/src/main/res/values/strings.xml	(date 1609169128247)
+@@ -7,19 +7,21 @@
+     <string name="question4">dautre information a ajouter? </string>
+     <string name="oui">oui</string>
+     <string name="non">non</string>
+-    <string name="validate">Confirmer mot de passe</string>
+-    <string name="your_name">Votre nom</string>
+-    <string name="last_name">Prenom</string>
+-    <string name="your_last_name"> Votre prenom</string>
+-    <string name="name">Nom</string>
+-    <string name="logo2">logo</string>
+-    <string name="your_login">Votre email</string>
+-    <string name="location">Votre adresse</string>
+-    <string name="your_location">Adresse</string>
+-    <string name="Save">Soumettre</string>
+-    <string name="confirmation">Votre mot de passe</string>
+-    <string name="enter">Retaper le mot de passe</string>
+-    <string name="create_acount">CREER UN COMPTE</string>
++    <string name="confirmation">Confirm your password</string>
++    <string name="your_name">Your name</string>
++    <string name="email">Email</string>
++    <string name="last_name">Last_name</string>
++    <string name="your_last_name">Your last name</string>
++    <string name="name">Name</string>
++    <string name="logo">logo</string>
++    <string name="your_email">Your email </string>
++    <string name="your_location">Your location </string>
++    <string name="location">Location</string>
++    <string name="Save">Submit</string>
++    <string name="your_password">Your password</string>
++    <string name="confirmation">Retype your password</string>
++    <string name="enter">Confirm your password</string>
++    <string name="create_account"> CREATE YOUR ACCOUNT</string>
+     <string name="logo">logo</string>
+     <string name="connexion">connexion</string>
+     <string name="create">create</string>
+@@ -27,7 +29,7 @@
+     <string name="purple_200">purple_200</string>
+     <string name="stayhome">stayhome</string>
+     <string name="login">login</string>
+-    <string name="password">password</string>
++    <string name="password">Password</string>
+     <string name="qst1">1. Avez-vous de la fièvre ou avez-vous ressenti de la fièvre récemment(14-21jours)?</string>
+     <string name="qst2">2. Avez-vous des essoufflements ou d\'autres difficultés à respirer?</string>
+     <string name="qst3">3. Avez-vous de la toux ou de la difficulté à avaler?</string>
+Index: app/src/main/res/layout/activity_sondage_main.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n\r\n<RelativeLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\r\n    android:layout_width=\"wrap_content\"\r\n    android:layout_height=\"wrap_content\"\r\n    android:paddingLeft=\"20dp\"\r\n    android:paddingRight=\"20dp\"\r\n    android:layout_gravity=\"center\"\r\n    android:gravity=\"center\"\r\n    android:orientation=\"vertical\">\r\n\r\n    <TextView\r\n        android:id=\"@+id/question1\"\r\n        android:layout_width=\"match_parent\"\r\n        android:layout_height=\"wrap_content\"\r\n        android:text=\"@string/question1\"\r\n        android:textSize=\"23sp\"\r\n        android:textStyle=\"bold\" />\r\n\r\n    <RadioButton\r\n        android:id=\"@+id/radio1\"\r\n        android:layout_width=\"wrap_content\"\r\n        android:layout_height=\"wrap_content\"\r\n        android:layout_below=\"@id/question1\"\r\n        android:layout_alignParentLeft=\"true\"\r\n        android:layout_toLeftOf=\"@+id/radio2\"\r\n        android:text=\"@string/oui\" />\r\n\r\n    <RadioButton\r\n        android:id=\"@+id/radio2\"\r\n        android:layout_width=\"190dp\"\r\n        android:layout_height=\"wrap_content\"\r\n        android:layout_below=\"@id/question1\"\r\n        android:layout_alignParentRight=\"true\"\r\n        android:text=\"@string/non\" />\r\n\r\n    <TextView\r\n        android:id=\"@+id/question2\"\r\n        android:layout_width=\"match_parent\"\r\n        android:layout_height=\"wrap_content\"\r\n        android:text=\"@string/question2\"\r\n        android:layout_below=\"@id/radio1\"\r\n        android:textSize=\"20sp\"\r\n        android:textStyle=\"bold\" />\r\n\r\n    <RadioButton\r\n        android:id=\"@+id/radio3\"\r\n        android:layout_width=\"wrap_content\"\r\n        android:layout_height=\"wrap_content\"\r\n        android:layout_below=\"@id/question2\"\r\n        android:layout_alignParentLeft=\"true\"\r\n        android:layout_toLeftOf=\"@+id/radio4\"\r\n        android:text=\"@string/oui\" />\r\n\r\n    <RadioButton\r\n        android:id=\"@+id/radio4\"\r\n        android:layout_width=\"190dp\"\r\n        android:layout_height=\"wrap_content\"\r\n        android:layout_below=\"@id/question2\"\r\n        android:layout_alignParentRight=\"true\"\r\n        android:text=\"@string/non\" />\r\n\r\n    <TextView\r\n        android:id=\"@+id/question3\"\r\n        android:layout_width=\"match_parent\"\r\n        android:layout_height=\"wrap_content\"\r\n        android:text=\"@string/question3\"\r\n        android:layout_below=\"@id/radio4\"\r\n        android:textSize=\"20sp\"\r\n        android:textStyle=\"bold\" />\r\n\r\n    <RadioButton\r\n        android:id=\"@+id/radio5\"\r\n        android:layout_width=\"wrap_content\"\r\n        android:layout_height=\"wrap_content\"\r\n        android:layout_below=\"@id/question3\"\r\n        android:layout_alignParentLeft=\"true\"\r\n        android:layout_toLeftOf=\"@+id/radio6\"\r\n        android:text=\"@string/oui\" />\r\n\r\n    <RadioButton\r\n        android:id=\"@+id/radio6\"\r\n        android:layout_width=\"190dp\"\r\n        android:layout_height=\"wrap_content\"\r\n        android:layout_below=\"@id/question3\"\r\n        android:layout_alignParentRight=\"true\"\r\n        android:text=\"@string/non\" />\r\n\r\n    <TextView\r\n        android:id=\"@+id/question4\"\r\n        android:layout_width=\"match_parent\"\r\n        android:layout_height=\"wrap_content\"\r\n        android:text=\"@string/question4\"\r\n        android:layout_below=\"@id/radio6\"\r\n        android:textSize=\"20sp\"\r\n        android:textStyle=\"bold\" />\r\n\r\n    <RadioButton\r\n        android:id=\"@+id/radio7\"\r\n        android:layout_width=\"wrap_content\"\r\n        android:layout_height=\"wrap_content\"\r\n        android:layout_below=\"@id/question4\"\r\n        android:layout_alignParentLeft=\"true\"\r\n        android:layout_toLeftOf=\"@+id/radio6\"\r\n        android:text=\"@string/oui\" />\r\n\r\n    <RadioButton\r\n        android:id=\"@+id/radio8\"\r\n        android:layout_width=\"190dp\"\r\n        android:layout_height=\"wrap_content\"\r\n        android:layout_below=\"@id/question4\"\r\n        android:layout_alignParentRight=\"true\"\r\n        android:text=\"@string/non\" />\r\n    <Space\r\n        android:layout_width=\"wrap_content\"\r\n        android:layout_height=\"wrap_content\" />\r\n\r\n    <Button\r\n        android:id=\"@+id/button\"\r\n        android:layout_width=\"220dp\"\r\n        android:layout_height=\"95dp\"\r\n        android:layout_alignParentEnd=\"true\"\r\n        android:layout_alignParentBottom=\"true\"\r\n        android:layout_gravity=\"center\"\r\n        android:layout_marginEnd=\"64dp\"\r\n        android:layout_marginBottom=\"209dp\"\r\n        android:gravity=\"center\"\r\n        android:text=\"envoyer \"\r\n        android:textSize=\"22dp\" />\r\n</RelativeLayout>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/layout/activity_sondage_main.xml	(revision 957298deeb6131a726211266891eb4473b2bd40f)
++++ app/src/main/res/layout/activity_sondage_main.xml	(date 1609171864835)
+@@ -6,7 +6,7 @@
+     android:paddingLeft="20dp"
+     android:paddingRight="20dp"
+     android:layout_gravity="center"
+-    android:gravity="center"
++     android:gravity="center"
+     android:orientation="vertical">
+ 
+     <TextView
+Index: app/src/main/java/com/mdwg2/covid19/rabaa
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.mdwg2.covid19;\r\n\r\nimport android.content.Intent;\r\nimport android.os.Bundle;\r\n\r\n\r\nimport androidx.appcompat.app.AppCompatActivity;\r\n\r\n\r\nimport android.view.View;\r\n\r\nimport android.view.animation.Animation;\r\nimport android.view.animation.AnimationUtils;\r\nimport android.widget.Button;\r\n\r\nimport android.widget.TextView;\r\nimport android.widget.Toast;\r\n\r\nimport java.util.logging.Handler;\r\nimport java.util.logging.LogRecord;\r\n\r\n\r\npublic class MainActivity extends AppCompatActivity implements View.OnClickListener {\r\n    Button btn;\r\n\r\n\r\n    @Override\r\n    public void onCreate(Bundle savedInstanceState) {\r\n        super.onCreate(savedInstanceState);\r\n        setContentView(R.layout.activity_main);\r\n        btn = findViewById(R.id.btn);\r\n        btn.setOnClickListener(this);\r\n    }\r\n\r\n\r\n    public void onClick (View v){\r\n        if (v.getId() == R.id.btn) {\r\n            Toast.makeText(getApplicationContext(), \"vous avez cliquer sur le bouton Soumettre\", Toast.LENGTH_SHORT).show();\r\n            Intent sondage = new Intent(this, activity_questionnaire_main.Class);\r\n            startActivity(sondage);\r\n        }\r\n    }\r\n}\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n
+===================================================================
+--- app/src/main/java/com/mdwg2/covid19/rabaa	(revision 957298deeb6131a726211266891eb4473b2bd40f)
++++ app/src/main/java/com/mdwg2/covid19/CreateActivity.java	(date 1609170991955)
+@@ -8,36 +8,32 @@
+ 
+ 
+ import android.view.View;
+-
+-import android.view.animation.Animation;
+-import android.view.animation.AnimationUtils;
+ import android.widget.Button;
+ 
+ import android.widget.TextView;
+ import android.widget.Toast;
+ 
+-import java.util.logging.Handler;
+-import java.util.logging.LogRecord;
+ 
+ 
+-public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+-    Button btn;
++
++public class CreateActivity extends AppCompatActivity implements View.OnClickListener {
++    Button my_button;
+ 
+ 
+     @Override
+     public void onCreate(Bundle savedInstanceState) {
+         super.onCreate(savedInstanceState);
+         setContentView(R.layout.activity_main);
+-        btn = findViewById(R.id.btn);
+-        btn.setOnClickListener(this);
++        my_button = findViewById(R.id.my_button);
++        my_button.setOnClickListener(this);
+     }
+ 
+ 
+     public void onClick (View v){
+-        if (v.getId() == R.id.btn) {
+-            Toast.makeText(getApplicationContext(), "vous avez cliquer sur le bouton Soumettre", Toast.LENGTH_SHORT).show();
+-            Intent sondage = new Intent(this, activity_questionnaire_main.Class);
+-            startActivity(sondage);
++        if (v.getId() == R.id.my_button ) {
++            Toast.makeText(getApplicationContext(), "vous avez cliquer sur le bouton Sauvegarder", Toast.LENGTH_SHORT).show();
++            Intent sondage = new Intent(this, activity_ questionnement.Class);
++            startActivity(activity_questionnement);
+         }
+     }
+ }
+Index: app/src/main/res/layout/activity_compte_main.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<LinearLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\r\n    xmlns:tools=\"http://schemas.android.com/tools\"\r\n    android:layout_width=\"match_parent\"\r\n    android:layout_height=\"match_parent\"\r\n    android:background=\"@drawable/ml\"\r\n\r\n    android:orientation=\"vertical\">\r\n\r\n    <ImageView\r\n        android:id=\"@+id/img\"\r\n        android:layout_width=\"100dp\"\r\n        android:layout_height=\"99dp\"\r\n        android:contentDescription=\"@string/logo2\"\r\n        android:padding=\"10dp\"\r\n        android:src=\"@drawable/logo2\"\r\n        tools:layout_gravity=\"right\" />\r\n\r\n\r\n    <TextView\r\n        android:id=\"@+id/create\"\r\n        android:layout_width=\"match_parent\"\r\n        android:layout_height=\"wrap_content\"\r\n        android:text=\"@string/create_acount\"\r\n        android:textColor=\"@color/gray\"\r\n        android:textSize=\"35sp\"\r\n        android:gravity=\"center\"/>\r\n\r\n\r\n    <TextView\r\n        android:id=\"@+id/lenom\"\r\n        android:layout_width=\"match_parent\"\r\n        android:layout_height=\"wrap_content\"\r\n        android:background=\"#fec5d9\"\r\n        android:text=\"@string/name\"\r\n        android:textColor=\"#FFFFFFFF\"\r\n        android:textSize=\"30sp\"\r\n        android:textStyle=\"bold\" />\r\n\r\n        <EditText\r\n            android:id=\"@+id/nom\"\r\n            android:layout_width=\"match_parent\"\r\n            android:layout_height=\"wrap_content\"\r\n            android:background=\"#FFFFFFFF\"\r\n            android:ems=\"10\"\r\n            android:hint=\"@string/your_name\"\r\n            android:importantForAutofill=\"no\"\r\n            android:inputType=\"textPersonName\"\r\n            android:textSize=\"30sp\" />\r\n\r\n\r\n        <TextView\r\n            android:id=\"@+id/prenom\"\r\n            android:layout_width=\"match_parent\"\r\n            android:layout_height=\"wrap_content\"\r\n            android:background=\"#fec5d9\"\r\n            android:text=\"@string/last_name\"\r\n            android:textColor=\"#FFFFFFFF\"\r\n            android:textSize=\"30sp\"\r\n            android:textStyle=\"bold\" />\r\n\r\n\r\n        <EditText\r\n            android:id=\"@+id/pren\"\r\n            android:layout_width=\"match_parent\"\r\n            android:layout_height=\"wrap_content\"\r\n            android:background=\"#FFFFFFFF\"\r\n            android:ems=\"10\"\r\n            android:hint=\"@string/your_last_name\"\r\n            android:importantForAutofill=\"no\"\r\n            android:inputType=\"textPersonName\"\r\n            android:textSize=\"30sp\" />\r\n\r\n        <TextView\r\n            android:id=\"@+id/adreese\"\r\n            android:layout_width=\"match_parent\"\r\n            android:layout_height=\"wrap_content\"\r\n            android:background=\"#fec5d9 \"\r\n            android:text=\"@string/your_location\"\r\n            android:textColor=\"#FFFFFFFF\"\r\n            android:textSize=\"30sp\"\r\n            android:textStyle=\"bold\" />\r\n\r\n        <EditText\r\n            android:id=\"@+id/vadr\"\r\n            android:layout_width=\"match_parent\"\r\n            android:layout_height=\"wrap_content\"\r\n            android:background=\"#FFFFFFFF\"\r\n            android:ems=\"10\"\r\n            android:hint=\"@string/location\"\r\n            android:importantForAutofill=\"no\"\r\n            android:inputType=\"textPostalAddress\"\r\n            android:textSize=\"30sp\" />\r\n\r\n\r\n        <TextView\r\n            android:id=\"@+id/Email\"\r\n            android:layout_width=\"match_parent\"\r\n            android:layout_height=\"wrap_content\"\r\n            android:background=\"#fec5d9 \"\r\n            android:text=\"@string/login\"\r\n\r\n            android:textColor=\"#FFFFFFFF\"\r\n            android:textSize=\"30sp\"\r\n            android:textStyle=\"bold\" />\r\n\r\n        <EditText\r\n            android:id=\"@+id/votreemail\"\r\n            android:layout_width=\"match_parent\"\r\n            android:layout_height=\"wrap_content\"\r\n            android:background=\"#FFFFFFFF\"\r\n            android:ems=\"40\"\r\n            android:hint=\"@string/your_login\"\r\n            android:importantForAutofill=\"no\"\r\n            android:inputType=\"textEmailAddress\"\r\n            android:textSize=\"30sp\" />\r\n\r\n\r\n        <TextView\r\n            android:id=\"@+id/motdepasse\"\r\n            android:layout_width=\"match_parent\"\r\n            android:layout_height=\"wrap_content\"\r\n            android:background=\"#fec5d9\"\r\n            android:text=\"@string/password\"\r\n            android:textColor=\"#FFFFFFFF\"\r\n            android:textSize=\"35sp\"\r\n            android:textStyle=\"bold\" />\r\n\r\n        <EditText\r\n            android:id=\"@+id/mdp\"\r\n            android:layout_width=\"match_parent\"\r\n            android:layout_height=\"wrap_content\"\r\n            android:background=\"#FFFFFFFF\"\r\n            android:ems=\"10\"\r\n            android:importantForAutofill=\"no\"\r\n            android:inputType=\"textPassword\"\r\n            android:text=\"@string/confirmation\"\r\n            android:textSize=\"30sp\"\r\n            tools:ignore=\"LabelFor\" />\r\n\r\n\r\n        <TextView\r\n            android:id=\"@+id/confirmerMotdePasse\"\r\n            android:layout_width=\"match_parent\"\r\n            android:layout_height=\"wrap_content\"\r\n            android:background=\"#fec5d9 \"\r\n            android:text=\"@string/enter\"\r\n            android:textColor=\"#FFFFFFFF\"\r\n            android:textSize=\"35sp\"\r\n            android:textStyle=\"bold\" />\r\n\r\n        <EditText\r\n            android:id=\"@+id/confirm\"\r\n            android:layout_width=\"match_parent\"\r\n            android:layout_height=\"wrap_content\"\r\n            android:background=\"#FFFFFFFF\"\r\n            android:ems=\"10\"\r\n            android:hint=\"@string/validate\"\r\n            android:importantForAutofill=\"no\"\r\n            android:inputType=\"textPassword\"\r\n            android:textSize=\"30sp\" />\r\n\r\n\r\n        <Button\r\n            android:id=\"@+id/btn\"\r\n            android:layout_width=\"wrap_content\"\r\n            android:layout_height=\"wrap_content\"\r\n            android:layout_gravity=\"center\"\r\n            android:backgroundTint=\"@color/white\"\r\n            android:gravity=\"center\"\r\n            android:text=\"@string/Save\"\r\n            android:textColor=\"@color/gray\"\r\n            android:textSize=\"30sp\" />\r\n    </LinearLayout>\r\n\r\n\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/layout/activity_compte_main.xml	(revision 957298deeb6131a726211266891eb4473b2bd40f)
++++ app/src/main/res/layout/activity_compte_main.xml	(date 1609176999197)
+@@ -3,17 +3,16 @@
+     xmlns:tools="http://schemas.android.com/tools"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+-    android:background="@drawable/ml"
+-
++    android:background="@drawable/background"
+     android:orientation="vertical">
+ 
+     <ImageView
+-        android:id="@+id/img"
++        android:id="@+id/picture"
+         android:layout_width="100dp"
+         android:layout_height="99dp"
+-        android:contentDescription="@string/logo2"
++        android:contentDescription="@string/logo"
+         android:padding="10dp"
+-        android:src="@drawable/logo2"
++        android:src="@drawable/logo"
+         tools:layout_gravity="right" />
+ 
+ 
+@@ -21,24 +20,24 @@
+         android:id="@+id/create"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+-        android:text="@string/create_acount"
++        android:text="@string/create_account"
+         android:textColor="@color/gray"
+-        android:textSize="35sp"
++        android:textSize="60sp"
+         android:gravity="center"/>
+ 
+ 
+     <TextView
+-        android:id="@+id/lenom"
++        android:id="@+id/my_name"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:background="#fec5d9"
+         android:text="@string/name"
+         android:textColor="#FFFFFFFF"
+-        android:textSize="30sp"
++        android:textSize="50sp"
+         android:textStyle="bold" />
+ 
+         <EditText
+-            android:id="@+id/nom"
++            android:id="@+id/username"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:background="#FFFFFFFF"
+@@ -46,11 +45,11 @@
+             android:hint="@string/your_name"
+             android:importantForAutofill="no"
+             android:inputType="textPersonName"
+-            android:textSize="30sp" />
++            android:textSize="35sp"/>
+ 
+ 
+         <TextView
+-            android:id="@+id/prenom"
++            android:id="@+id/my_last_name"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:background="#fec5d9"
+@@ -61,7 +60,7 @@
+ 
+ 
+         <EditText
+-            android:id="@+id/pren"
++            android:id="@+id/user_last_name"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:background="#FFFFFFFF"
+@@ -69,84 +68,83 @@
+             android:hint="@string/your_last_name"
+             android:importantForAutofill="no"
+             android:inputType="textPersonName"
+-            android:textSize="30sp" />
++            android:textSize="35sp" />
+ 
+         <TextView
+-            android:id="@+id/adreese"
++            android:id="@+id/user_location"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:background="#fec5d9 "
+-            android:text="@string/your_location"
++            android:text="@string/location"
+             android:textColor="#FFFFFFFF"
+-            android:textSize="30sp"
++            android:textSize="50sp"
+             android:textStyle="bold" />
+ 
+         <EditText
+-            android:id="@+id/vadr"
++            android:id="@+id/my_location"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:background="#FFFFFFFF"
+             android:ems="10"
+-            android:hint="@string/location"
++            android:hint="@string/your_location"
+             android:importantForAutofill="no"
+             android:inputType="textPostalAddress"
+-            android:textSize="30sp" />
++            android:textSize="35sp" />
+ 
+ 
+         <TextView
+-            android:id="@+id/Email"
++            android:id="@+id/my_Email"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:background="#fec5d9 "
+-            android:text="@string/login"
+-
++            android:text="@string/email"
+             android:textColor="#FFFFFFFF"
+-            android:textSize="30sp"
++            android:textSize="50sp"
+             android:textStyle="bold" />
+ 
+         <EditText
+-            android:id="@+id/votreemail"
++            android:id="@+id/user_email"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:background="#FFFFFFFF"
+             android:ems="40"
+-            android:hint="@string/your_login"
++            android:hint="@string/your_email"
+             android:importantForAutofill="no"
+             android:inputType="textEmailAddress"
+-            android:textSize="30sp" />
++            android:textSize="35sp" />
+ 
+ 
+         <TextView
+-            android:id="@+id/motdepasse"
++            android:id="@+id/my_password"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:background="#fec5d9"
+             android:text="@string/password"
+             android:textColor="#FFFFFFFF"
+-            android:textSize="35sp"
++            android:textSize="50sp"
+             android:textStyle="bold" />
+ 
+         <EditText
+-            android:id="@+id/mdp"
++            android:id="@+id/user_password"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:background="#FFFFFFFF"
+             android:ems="10"
+             android:importantForAutofill="no"
+             android:inputType="textPassword"
+-            android:text="@string/confirmation"
+-            android:textSize="30sp"
++            android:text="@string/your_password"
++            android:textSize="35sp"
+             tools:ignore="LabelFor" />
+ 
+ 
+         <TextView
+-            android:id="@+id/confirmerMotdePasse"
++            android:id="@+id/your_confirmation"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:background="#fec5d9 "
+             android:text="@string/enter"
+             android:textColor="#FFFFFFFF"
+-            android:textSize="35sp"
++            android:textSize="50sp"
+             android:textStyle="bold" />
+ 
+         <EditText
+@@ -155,14 +153,14 @@
+             android:layout_height="wrap_content"
+             android:background="#FFFFFFFF"
+             android:ems="10"
+-            android:hint="@string/validate"
++            android:hint="@string/confirmation"
+             android:importantForAutofill="no"
+             android:inputType="textPassword"
+-            android:textSize="30sp" />
++            android:textSize="35sp" />
+ 
+ 
+         <Button
+-            android:id="@+id/btn"
++            android:id="@+id/my_button"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_gravity="center"
+Index: app/src/main/java/com/mdwg2/covid19/QuizActivity.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.mdwg2.covid19;\r\n\r\nimport androidx.appcompat.app.AppCompatActivity;\r\n\r\nimport java.awt.Button;\r\n\r\nimport javax.swing.text.View;\r\nimport android.content.Intent;\r\nimport android.os.Bundle;\r\nimport android.widget.Toast;\r\n\r\n\r\n\r\npublic class QuizActivity extends AppCompatActivity implements View.OnClickListener  {\r\n    Button b;\r\n    @Override\r\n    protected void onCreate(Bundle savedInstanceState) {\r\n        super.onCreate(savedInstanceState);\r\n        setContentView(R.layout.activity_main);\r\n        b = findViewById(R.id.bouton);\r\n        b.setOnClickListener(this);\r\n    }\r\n    public void onClick(View v) {\r\n        if (v.getId() == R.id.bouton) {\r\n            Toast.makeText(getApplicationContext(), \"vous avez cliquer sur le bouton Suivant\", Toast.LENGTH_SHORT).show();\r\n            Intent sondage = new Intent(this, activity_sondage_main.Class);\r\n            startActivity(sondage);\r\n        }\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/com/mdwg2/covid19/QuizActivity.java	(revision 957298deeb6131a726211266891eb4473b2bd40f)
++++ app/src/main/java/com/mdwg2/covid19/QuizActivity.java	(date 1609176999406)
+@@ -1,4 +1,4 @@
+-package com.mdwg2.covid19;
++ package com.mdwg2.covid19;
+ 
+ import androidx.appcompat.app.AppCompatActivity;
+ 
+Index: app/src/main/res/values/styles.xml
+===================================================================
+--- app/src/main/res/values/styles.xml	(revision 957298deeb6131a726211266891eb4473b2bd40f)
++++ app/src/main/res/values/styles.xml	(revision 957298deeb6131a726211266891eb4473b2bd40f)
+@@ -1,10 +0,0 @@
+-<resources>
+-    <!-- Base application theme. -->
+-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+-        <!-- Customize your theme here. -->
+-        <item name="colorPrimary">@color/colorPrimary</item>
+-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+-        <item name="colorAccent">@color/colorAccent</item>
+-    </style>
+-
+-</resources>
+\ No newline at end of file
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ProjectRootManager\" version=\"2\" languageLevel=\"JDK_1_8\" default=\"true\" project-jdk-name=\"1.8\" project-jdk-type=\"JavaSDK\">\r\n    <output url=\"file://$PROJECT_DIR$/build/classes\" />\r\n  </component>\r\n  <component name=\"ProjectType\">\r\n    <option name=\"id\" value=\"Android\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/misc.xml	(revision 957298deeb6131a726211266891eb4473b2bd40f)
++++ .idea/misc.xml	(date 1609164936366)
+@@ -1,9 +1,4 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+-    <output url="file://$PROJECT_DIR$/build/classes" />
+-  </component>
+-  <component name="ProjectType">
+-    <option name="id" value="Android" />
+-  </component>
++  <component name="ProjectRootManager" version="2" project-jdk-name="openjdk-15" project-jdk-type="JavaSDK" />
+ </project>
+\ No newline at end of file
