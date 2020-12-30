@@ -1,5 +1,6 @@
 package com.mdwg2.covid19;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -13,28 +14,32 @@ public class ConnexionActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        TextView title=findViewById(R.id.toolbar_title);
-
+        TextView title = findViewById(R.id.toolbar_title);
         Button B = findViewById(R.id.connexion);
         Button B1 = findViewById(R.id.create);
 
+//buton du connexion
         B.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(ConnexionActivity.this,"connexion",Toast.LENGTH_SHORT).show();
 
+
+                Toast.makeText(ConnexionActivity.this, "connexion", Toast.LENGTH_SHORT).show();
+                //Intent explicite pour passer a l'activité CreateActivity
+                Intent intent =new Intent(getApplicationContext(),CreateActivity.class);
+                startActivity(intent);
 
             }
         });
+        //buton create
         B1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(ConnexionActivity.this,"create",Toast.LENGTH_SHORT).show();
+                Toast.makeText(ConnexionActivity.this, "create", Toast.LENGTH_SHORT).show();
 
 
             }
         });
-
 
 
     }
