@@ -4,13 +4,15 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import javax.swing.text.html.ImageView;
 
-public class HomeActivity extends AppCompatActivity implements View.OnClickListener {
+public class HomeActivity extends AppCompatActivity  {
+
        Button button1;
        public void onClickImage(View view){
            ImageView ImageView = (javax.swing.text.html.ImageView) findViewById(R.id.virus);
@@ -21,10 +23,12 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
        }
 
 
+
        @Override
        protected void onCreate(Bundle savedInstanceState) {
            super.onCreate(savedInstanceState);
            setContentView(R.layout.activity_main);
+
            button1 = findViewById(R.id.button1);
            button1.setOnClickListener(this);
 
@@ -37,6 +41,7 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
                Intent Start = new Intent(this, ConnexionActivity.class);
                startActivity(Start);
            }
+
 
        }
    }
