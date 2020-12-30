@@ -19,10 +19,10 @@
     <string name="location">Location</string>
     <string name="Save">Submit</string>
     <string name="your_password">Your password</string>
-    <string name="confirmation">Retype your password</string>
+
     <string name="enter">Confirm your password</string>
     <string name="create_account"> CREATE YOUR ACCOUNT</string>
-    <string name="logo">logo</string>
+
     <string name="connexion">connexion</string>
     <string name="create">create</string>
     <string name="CoronaVirus">CoronaVirus</string>
@@ -37,7 +37,7 @@
     <string name="question_five">5. Have you recently lost your taste or sense of smell?</string>
     <string name="next">Next</string>
     <string name="ForgotPassword">oublier mot passe</string>
-    <string name="Copyright">copier</string>
+    >
 
 
 </resources>

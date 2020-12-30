@@ -26,8 +26,12 @@ public class ConnexionActivity extends AppCompatActivity {
 
                 Toast.makeText(ConnexionActivity.this, "connexion", Toast.LENGTH_SHORT).show();
                 //Intent explicite pour passer a l'activité home
-                Intent intent =new Intent(getApplicationContext(),HomeActivity.class);
-                startActivity(intent);
+                Intent home =new Intent(getApplicationContext(),HomeActivity.class);
+
+
+
+
+                startActivity(home);
 
             }
         });
@@ -37,8 +41,8 @@ public class ConnexionActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Toast.makeText(ConnexionActivity.this, "create", Toast.LENGTH_SHORT).show();
                 //Intent pour passer a l'activite create
-                Intent intent=new Intent(getApplicationContext(),CreateActivity.class);
-                startActivity(intent);
+                Intent create=new Intent(getApplicationContext(),CreateActivity.class);
+                startActivity(create);
 
 
 
