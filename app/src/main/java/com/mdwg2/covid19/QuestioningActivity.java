@@ -21,7 +21,7 @@ public class QuestioningActivity extends AppCompatActivity {
             public void onClick(View v) {
                 if (v.getId() == R.id.button) {
                     Toast.makeText(getApplicationContext(), "you clicked the Next button", Toast.LENGTH_SHORT).show();
-                    Intent roua = new Intent(this, activity_survey.class);
+                    Intent roua = new Intent(this, SurveyActivity.class);
                     startActivity(roua);
 
                 }}
