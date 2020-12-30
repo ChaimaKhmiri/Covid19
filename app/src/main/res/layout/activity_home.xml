@@ -6,9 +6,9 @@
          android:background="@drawable/background"
          tools:context=".MainActivity">
 
-         <include layout="@layout/toolbar"></include>
+    <include layout="@layout/toolbar" />
 
-         <include layout="@layout/anim"></include>
+    <include layout="@layout/anim" />
 
 
          <Button
