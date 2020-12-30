@@ -1,10 +1,10 @@
 <resources>
     <string name="app_name">Covid19</string>
     <string name="survey">Tous Anti Covid</string>
-    <string name="question1">Avez-vous été en contact avec des personnes ayant testé positif ou suspecte pour une infection au covid-19?</string>
-    <string name="question2">Avez-vous une maladie cardiaque ou une maladie plumonaire ou rénal ou diabéte ou des troubles immunitaires?</string>
-    <string name="question3">Avez-vous voyagé ou cours des 14 jours?</string>
-    <string name="question4">dautre information a ajouter? </string>
+    <string name="question1">Have you been in contact with people who have tested positive or suspected for covid-19 infection?</string>
+    <string name="question2">Do you have heart disease or plumon or kidney disease or diabetes or immune disorders?</string>
+    <string name="question3">Have you traveled or over the 14 days?</string>
+    <string name="question4">other information to add? </string>
     <string name="yes">yes</string>
     <string name="no">no</string>
     <string name="confirmation">Confirm your password</string>
