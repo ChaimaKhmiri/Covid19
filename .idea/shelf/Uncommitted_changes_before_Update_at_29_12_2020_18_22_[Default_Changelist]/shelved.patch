@@ -1,0 +1,208 @@
+Index: app/src/main/res/values/strings.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><resources>\r\n    <string name=\"app_name\">Covid19</string>\r\n    <string name=\"survey\">Tous Anti Covid</string>\r\n    <string name=\"question1\">Avez-vous été en contact avec des personnes ayant testé positif ou suspecte pour une infection au covid-19?</string>\r\n    <string name=\"question2\">Avez-vous une maladie cardiaque ou une maladie plumonaire ou rénal ou diabéte ou des troubles immunitaires?</string>\r\n    <string name=\"question3\">Avez-vous voyagé ou cours des 14 jours?</string>\r\n    <string name=\"question4\">dautre information a ajouter? </string>\r\n    <string name=\"yes\">yes</string>\r\n    <string name=\"no\">no</string>\r\n    <string name=\"validate\">Confirmer mot de passe</string>\r\n    <string name=\"your_name\">Votre nom</string>\r\n    <string name=\"last_name\">Prenom</string>\r\n    <string name=\"your_last_name\"> Votre prenom</string>\r\n    <string name=\"name\">Nom</string>\r\n    <string name=\"logo2\">logo</string>\r\n    <string name=\"your_login\">Votre email</string>\r\n    <string name=\"location\">Votre adresse</string>\r\n    <string name=\"your_location\">Adresse</string>\r\n    <string name=\"Save\">Soumettre</string>\r\n    <string name=\"confirmation\">Votre mot de passe</string>\r\n    <string name=\"enter\">Retaper le mot de passe</string>\r\n    <string name=\"create_acount\">CREER UN COMPTE</string>\r\n    <string name=\"logo\">logo</string>\r\n    <string name=\"connexion\">connexion</string>\r\n    <string name=\"create\">create</string>\r\n    <string name=\"CoronaVirus\">CoronaVirus</string>\r\n    <string name=\"purple_200\">purple_200</string>\r\n    <string name=\"stayhome\">stayhome</string>\r\n    <string name=\"login\">login</string>\r\n    <string name=\"password\">password</string>\r\n    <string name=\"question_one\">1. Do you have a fever or have you recently had a fever (14–21 days)?</string>\r\n    <string name=\"question_two\">2. Do you have shortness of breath or other difficulty breathing?</string>\r\n    <string name=\"question_three\">3. Do you have a cough or difficulty swallowing?</string>\r\n    <string name=\"question_four\">4. Do you have other flu-like symptoms, such as gastrointestinal upset, muscle pain, headache, or fatigue?</string>\r\n    <string name=\"question_five\">5. Have you recently lost your taste or sense of smell?</string>\r\n    <string name=\"next\">Next</string>\r\n    <string name=\"ForgotPassword\">oublier mot passe</string>\r\n    <string name=\"Copyright\">copier</string>\r\n\r\n\r\n</resources>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/values/strings.xml	(revision 49fabca13dce0af6e56fa23c35121ff44d4e667d)
++++ app/src/main/res/values/strings.xml	(date 1609260591272)
+@@ -1,12 +1,9 @@
+ <resources>
+     <string name="app_name">Covid19</string>
+-    <string name="survey">Tous Anti Covid</string>
+     <string name="question1">Avez-vous été en contact avec des personnes ayant testé positif ou suspecte pour une infection au covid-19?</string>
+     <string name="question2">Avez-vous une maladie cardiaque ou une maladie plumonaire ou rénal ou diabéte ou des troubles immunitaires?</string>
+     <string name="question3">Avez-vous voyagé ou cours des 14 jours?</string>
+     <string name="question4">dautre information a ajouter? </string>
+-    <string name="yes">yes</string>
+-    <string name="no">no</string>
+     <string name="validate">Confirmer mot de passe</string>
+     <string name="your_name">Votre nom</string>
+     <string name="last_name">Prenom</string>
+@@ -28,14 +25,19 @@
+     <string name="stayhome">stayhome</string>
+     <string name="login">login</string>
+     <string name="password">password</string>
++    <string name="ForgotPassword">oublier mot passe</string>
++    <string name="Copyright">copier</string>
++
++    <string name="survey">Tous Anti Covid</string>
+     <string name="question_one">1. Do you have a fever or have you recently had a fever (14–21 days)?</string>
++    <string name="yes">yes</string>
++    <string name="no">no</string>
+     <string name="question_two">2. Do you have shortness of breath or other difficulty breathing?</string>
+     <string name="question_three">3. Do you have a cough or difficulty swallowing?</string>
+     <string name="question_four">4. Do you have other flu-like symptoms, such as gastrointestinal upset, muscle pain, headache, or fatigue?</string>
+     <string name="question_five">5. Have you recently lost your taste or sense of smell?</string>
+     <string name="next">Next</string>
+-    <string name="ForgotPassword">oublier mot passe</string>
+-    <string name="Copyright">copier</string>
++
+ 
+ 
+ </resources>
+\ No newline at end of file
+Index: app/src/main/res/layout/activity_questioning.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<LinearLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\r\n    xmlns:tools=\"http://schemas.android.com/tools\"\r\n    android:layout_width=\"match_parent\"\r\n    android:layout_height=\"match_parent\"\r\n    android:background=\"@drawable/background\"\r\n    android:orientation=\"vertical\">\r\n\r\n    <TextView\r\n        android:layout_width=\"match_parent\"\r\n        android:layout_height=\"wrap_content\"\r\n        android:layout_margin=\"10dp\"\r\n        android:gravity=\"center\"\r\n        android:text=\"@string/survey\"\r\n        android:textColor=\"@color/green\"\r\n        android:textSize=\"35sp\"\r\n        android:textStyle=\"normal\" />\r\n\r\n    <RelativeLayout\r\n        android:layout_width=\"match_parent\"\r\n        android:layout_height=\"0dp\"\r\n        android:layout_gravity=\"center\"\r\n        android:gravity=\"center\"\r\n        android:orientation=\"vertical\"\r\n        android:layout_weight=\"1\">\r\n\r\n        <TextView\r\n            android:id=\"@+id/question_one\"\r\n            android:layout_width=\"match_parent\"\r\n            android:layout_height=\"wrap_content\"\r\n            android:background=\"@color/pink\"\r\n            android:text=\"@string/question_one\"\r\n            android:textSize=\"20sp\"\r\n            android:textStyle=\"normal\"\r\n            android:textColor=\"@color/black\"/>\r\n\r\n        <RadioButton\r\n            android:id=\"@+id/Radio_Button_one\"\r\n            android:layout_width=\"wrap_content\"\r\n            android:layout_height=\"wrap_content\"\r\n            android:layout_alignParentStart=\"true\"\r\n            android:layout_toStartOf=\"@id/Radio_Button_two\"\r\n            android:layout_below=\"@id/question_one\"\r\n            android:text=\"@string/yes\"\r\n            android:textSize=\"18sp\"/>\r\n\r\n        <RadioButton\r\n            android:id=\"@+id/Radio_Button_two\"\r\n            android:layout_width=\"190dp\"\r\n            android:layout_height=\"wrap_content\"\r\n            android:layout_below=\"@id/question_one\"\r\n            android:layout_alignParentEnd=\"true\"\r\n            android:text=\"@string/no\"\r\n            android:textSize=\"18sp\" />\r\n\r\n        <TextView\r\n            android:id=\"@+id/question_two\"\r\n            android:layout_width=\"wrap_content\"\r\n            android:layout_height=\"wrap_content\"\r\n            android:background=\"@color/pink\"\r\n            android:layout_below=\"@id/Radio_Button_one\"\r\n            android:text=\"@string/question_two\"\r\n            android:textSize=\"20sp\"\r\n            android:textStyle=\"normal\"\r\n            android:textColor=\"@color/black\"/>\r\n\r\n        <RadioButton\r\n            android:id=\"@+id/Radio_Button_three\"\r\n            android:layout_width=\"wrap_content\"\r\n            android:layout_height=\"wrap_content\"\r\n            android:layout_below=\"@id/question_two\"\r\n            android:layout_alignParentStart=\"true\"\r\n            android:layout_toStartOf=\"@+id/Radio_Button_four\"\r\n            android:text=\"@string/yes\"\r\n            android:textSize=\"18sp\"/>\r\n\r\n        <RadioButton\r\n            android:id=\"@+id/Radio_Button_four\"\r\n            android:layout_width=\"190dp\"\r\n            android:layout_height=\"wrap_content\"\r\n            android:layout_below=\"@id/question_two\"\r\n            android:layout_alignParentEnd=\"true\"\r\n            android:text=\"@string/no\"\r\n            android:textSize=\"18sp\"/>\r\n\r\n        <TextView\r\n            android:id=\"@+id/question_three\"\r\n            android:layout_width=\"wrap_content\"\r\n            android:layout_height=\"wrap_content\"\r\n            android:background=\"@color/pink\"\r\n            android:layout_below=\"@id/Radio_Button_four\"\r\n            android:text=\"@string/question_three\"\r\n            android:textSize=\"20sp\"\r\n            android:textStyle=\"normal\"\r\n            android:textColor=\"@color/black\"/>\r\n\r\n        <RadioButton\r\n            android:id=\"@+id/Radio_Button_five\"\r\n            android:layout_width=\"wrap_content\"\r\n            android:layout_height=\"wrap_content\"\r\n            android:layout_below=\"@id/question_three\"\r\n            android:layout_alignParentStart=\"true\"\r\n            android:layout_toStartOf=\"@+id/Radio_Button_six\"\r\n            android:text=\"@string/yes\"\r\n            android:textSize=\"18sp\"/>\r\n\r\n        <RadioButton\r\n            android:id=\"@+id/Radio_Button_six\"\r\n            android:layout_width=\"190dp\"\r\n            android:layout_height=\"wrap_content\"\r\n            android:layout_below=\"@id/question_three\"\r\n            android:layout_alignParentEnd=\"true\"\r\n            android:text=\"@string/no\"\r\n            android:textSize=\"18sp\"/>\r\n\r\n        <TextView\r\n            android:id=\"@+id/question_four\"\r\n            android:layout_width=\"wrap_content\"\r\n            android:layout_height=\"wrap_content\"\r\n            android:background=\"@color/pink\"\r\n            android:layout_below=\"@id/Radio_Button_six\"\r\n            android:text=\"@string/question_four\"\r\n            android:textSize=\"20sp\"\r\n            android:textStyle=\"normal\"\r\n            android:textColor=\"@color/black\"/>\r\n\r\n        <RadioButton\r\n            android:id=\"@+id/Radio_Button_seven\"\r\n            android:layout_width=\"wrap_content\"\r\n            android:layout_height=\"wrap_content\"\r\n            android:layout_below=\"@id/question_four\"\r\n            android:layout_alignParentStart=\"true\"\r\n            android:layout_toStartOf=\"@+id/Radio_Button_six\"\r\n            android:text=\"@string/yes\"\r\n            android:textSize=\"18sp\"/>\r\n\r\n        <RadioButton\r\n            android:id=\"@+id/Radio_Button_eight\"\r\n            android:layout_width=\"190dp\"\r\n            android:layout_height=\"wrap_content\"\r\n            android:layout_below=\"@id/question_four\"\r\n            android:layout_alignParentEnd=\"true\"\r\n            android:text=\"@string/no\"\r\n            android:textSize=\"18sp\"/>\r\n\r\n        <TextView\r\n            android:id=\"@+id/question_five\"\r\n            android:layout_width=\"wrap_content\"\r\n            android:layout_height=\"wrap_content\"\r\n            android:background=\"@color/pink\"\r\n            android:layout_below=\"@id/Radio_Button_seven\"\r\n            android:text=\"@string/question_five\"\r\n            android:textSize=\"20sp\"\r\n            android:textStyle=\"normal\"\r\n            android:textColor=\"@color/black\"/>\r\n\r\n        <RadioButton\r\n            android:id=\"@+id/Radio_Button_nine\"\r\n            android:layout_width=\"wrap_content\"\r\n            android:layout_height=\"wrap_content\"\r\n            android:layout_below=\"@id/question_five\"\r\n            android:layout_alignParentStart=\"true\"\r\n            android:layout_toStartOf=\"@+id/Radio_Button_eight\"\r\n            android:text=\"@string/yes\"\r\n            android:textSize=\"18sp\"/>\r\n\r\n        <RadioButton\r\n            android:id=\"@+id/Radio_Button_ten\"\r\n            android:layout_width=\"190dp\"\r\n            android:layout_height=\"wrap_content\"\r\n            android:layout_below=\"@id/question_five\"\r\n            android:layout_alignParentEnd=\"true\"\r\n            android:text=\"@string/no\"\r\n            android:textSize=\"18sp\"\r\n            android:textStyle=\"bold\"/>\r\n\r\n    </RelativeLayout>\r\n\r\n    <Button\r\n        android:id=\"@+id/button\"\r\n        android:layout_width=\"wrap_content\"\r\n        android:layout_height=\"wrap_content\"\r\n        android:layout_gravity=\"center\"\r\n        android:gravity=\"center\"\r\n        android:text=\"@string/next\"\r\n        android:textSize=\"16sp\"\r\n        android:textStyle=\"normal\"\r\n        android:backgroundTint=\"@color/white\"\r\n        android:textColor=\"@color/green\"\r\n        tools:targetApi=\"lollipop\" />\r\n\r\n</LinearLayout>\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/layout/activity_questioning.xml	(revision 49fabca13dce0af6e56fa23c35121ff44d4e667d)
++++ app/src/main/res/layout/activity_questioning.xml	(date 1609262561596)
+@@ -3,7 +3,7 @@
+     xmlns:tools="http://schemas.android.com/tools"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+-    android:background="@drawable/background"
++    android:background="@mipmap/ic_launcher_background_foreground"
+     android:orientation="vertical">
+ 
+     <TextView
+@@ -25,7 +25,7 @@
+         android:layout_weight="1">
+ 
+         <TextView
+-            android:id="@+id/question_one"
++            android:id="@+id/one"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:background="@color/pink"
+@@ -40,7 +40,7 @@
+             android:layout_height="wrap_content"
+             android:layout_alignParentStart="true"
+             android:layout_toStartOf="@id/Radio_Button_two"
+-            android:layout_below="@id/question_one"
++            android:layout_below="@id/one"
+             android:text="@string/yes"
+             android:textSize="18sp"/>
+ 
+@@ -48,13 +48,13 @@
+             android:id="@+id/Radio_Button_two"
+             android:layout_width="190dp"
+             android:layout_height="wrap_content"
+-            android:layout_below="@id/question_one"
++            android:layout_below="@id/one"
+             android:layout_alignParentEnd="true"
+             android:text="@string/no"
+             android:textSize="18sp" />
+ 
+         <TextView
+-            android:id="@+id/question_two"
++            android:id="@+id/two"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:background="@color/pink"
+@@ -68,7 +68,7 @@
+             android:id="@+id/Radio_Button_three"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+-            android:layout_below="@id/question_two"
++            android:layout_below="@id/two"
+             android:layout_alignParentStart="true"
+             android:layout_toStartOf="@+id/Radio_Button_four"
+             android:text="@string/yes"
+@@ -78,13 +78,13 @@
+             android:id="@+id/Radio_Button_four"
+             android:layout_width="190dp"
+             android:layout_height="wrap_content"
+-            android:layout_below="@id/question_two"
++            android:layout_below="@id/two"
+             android:layout_alignParentEnd="true"
+             android:text="@string/no"
+             android:textSize="18sp"/>
+ 
+         <TextView
+-            android:id="@+id/question_three"
++            android:id="@+id/three"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:background="@color/pink"
+@@ -98,7 +98,7 @@
+             android:id="@+id/Radio_Button_five"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+-            android:layout_below="@id/question_three"
++            android:layout_below="@id/three"
+             android:layout_alignParentStart="true"
+             android:layout_toStartOf="@+id/Radio_Button_six"
+             android:text="@string/yes"
+@@ -108,13 +108,13 @@
+             android:id="@+id/Radio_Button_six"
+             android:layout_width="190dp"
+             android:layout_height="wrap_content"
+-            android:layout_below="@id/question_three"
++            android:layout_below="@id/three"
+             android:layout_alignParentEnd="true"
+             android:text="@string/no"
+             android:textSize="18sp"/>
+ 
+         <TextView
+-            android:id="@+id/question_four"
++            android:id="@+id/four"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:background="@color/pink"
+@@ -128,7 +128,7 @@
+             android:id="@+id/Radio_Button_seven"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+-            android:layout_below="@id/question_four"
++            android:layout_below="@id/four"
+             android:layout_alignParentStart="true"
+             android:layout_toStartOf="@+id/Radio_Button_six"
+             android:text="@string/yes"
+@@ -138,13 +138,13 @@
+             android:id="@+id/Radio_Button_eight"
+             android:layout_width="190dp"
+             android:layout_height="wrap_content"
+-            android:layout_below="@id/question_four"
++            android:layout_below="@id/four"
+             android:layout_alignParentEnd="true"
+             android:text="@string/no"
+             android:textSize="18sp"/>
+ 
+         <TextView
+-            android:id="@+id/question_five"
++            android:id="@+id/five"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:background="@color/pink"
+@@ -158,7 +158,7 @@
+             android:id="@+id/Radio_Button_nine"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+-            android:layout_below="@id/question_five"
++            android:layout_below="@id/five"
+             android:layout_alignParentStart="true"
+             android:layout_toStartOf="@+id/Radio_Button_eight"
+             android:text="@string/yes"
+@@ -168,7 +168,7 @@
+             android:id="@+id/Radio_Button_ten"
+             android:layout_width="190dp"
+             android:layout_height="wrap_content"
+-            android:layout_below="@id/question_five"
++            android:layout_below="@id/five"
+             android:layout_alignParentEnd="true"
+             android:text="@string/no"
+             android:textSize="18sp"
+Index: app/src/main/java/com/mdwg2/covid19/QuestioningActivity.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.mdwg2.covid19;\r\n\r\nimport androidx.appcompat.app.AppCompatActivity;\r\n\r\nimport java.awt.Button;\r\nimport android.content.Intent;\r\nimport android.widget.Toast;\r\nimport android.view.View;\r\nimport android.os.Bundle;\r\n\r\nimport javax.swing.text.View;\r\n\r\npublic class QuestioningActivity extends AppCompatActivity {\r\n    @Override\r\n    protected void onCreate(Bundle savedInstanceState) {\r\n        super.onCreate(savedInstanceState);\r\n        setContentView(R.layout.activity_questioning);\r\n        final Button button = findViewById(R.id.button);\r\n        button.setOnClickListener(new View.OnClickListener() {\r\n\r\n            public void onClick(View v) {\r\n                if (v.getId() == R.id.button) {\r\n                    Toast.makeText(getApplicationContext(), \"you clicked the Next button\", Toast.LENGTH_SHORT).show();\r\n                    Intent survey = new Intent(this, activity_sondage_main.Class);\r\n                    startActivity(survey);\r\n\r\n                }}\r\n        });}}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/com/mdwg2/covid19/QuestioningActivity.java	(revision 49fabca13dce0af6e56fa23c35121ff44d4e667d)
++++ app/src/main/java/com/mdwg2/covid19/QuestioningActivity.java	(date 1609261501872)
+@@ -21,7 +21,7 @@
+             public void onClick(View v) {
+                 if (v.getId() == R.id.button) {
+                     Toast.makeText(getApplicationContext(), "you clicked the Next button", Toast.LENGTH_SHORT).show();
+-                    Intent survey = new Intent(this, activity_sondage_main.Class);
++                    Intent survey = new Intent(this, activity_survey_main.Class);
+                     startActivity(survey);
+ 
+                 }}

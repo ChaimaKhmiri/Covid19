@@ -1,0 +1,115 @@
+Index: app/src/main/res/values/strings.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><resources>\r\n    <string name=\"app_name\">Covid19</string>\r\n    <string name=\"Sondage\">Sondage\"</string>\r\n    <string name=\"question1\">Avez-vous été en contact avec des personnes ayant testé positif ou suspecte pour une infection au covid-19?</string>\r\n    <string name=\"question2\">Avez-vous une maladie cardiaque ou une maladie plumonaire ou rénal ou diabéte ou des troubles immunitaires?</string>\r\n    <string name=\"question3\">Avez-vous voyagé ou cours des 14 jours?</string>\r\n    <string name=\"question4\">dautre information a ajouter? </string>\r\n    <string name=\"oui\">oui</string>\r\n    <string name=\"non\">non</string>\r\n    <string name=\"validate\">Confirmer mot de passe</string>\r\n    <string name=\"your_name\">Votre nom</string>\r\n    <string name=\"last_name\">Prenom</string>\r\n    <string name=\"your_last_name\"> Votre prenom</string>\r\n    <string name=\"name\">Nom</string>\r\n    <string name=\"logo2\">logo</string>\r\n    <string name=\"your_login\">Votre email</string>\r\n    <string name=\"location\">Votre adresse</string>\r\n    <string name=\"your_location\">Adresse</string>\r\n    <string name=\"Save\">Soumettre</string>\r\n    <string name=\"confirmation\">Votre mot de passe</string>\r\n    <string name=\"enter\">Retaper le mot de passe</string>\r\n    <string name=\"create_acount\">CREER UN COMPTE</string>\r\n    <string name=\"logo\">logo</string>\r\n    <string name=\"connexion\">connexion</string>\r\n    <string name=\"create\">create</string>\r\n    <string name=\"CoronaVirus\">CoronaVirus</string>\r\n    <string name=\"purple_200\">purple_200</string>\r\n    <string name=\"stayhome\">stayhome</string>\r\n    <string name=\"login\">login</string>\r\n    <string name=\"password\">password</string>\r\n    <string name=\"qst1\">1. Avez-vous de la fièvre ou avez-vous ressenti de la fièvre récemment(14-21jours)?</string>\r\n    <string name=\"qst2\">2. Avez-vous des essoufflements ou d\\'autres difficultés à respirer?</string>\r\n    <string name=\"qst3\">3. Avez-vous de la toux ou de la difficulté à avaler?</string>\r\n    <string name=\"qst4\">4. Avez-vous d\\'autres symptomes pseudo-grippaux, tels que troubles gastro-intestinaux, douleurs musculaires, maux de tete ou fatigue?</string>\r\n    <string name=\"qst5\">5. Avez-vous récemment perdu le gout ou le sens d\\'odorat?</string>\r\n    <string name=\"Suivant\">Suivant</string>\r\n    <string name=\"ForgotPassword\">oublier mot passe</string>\r\n    <string name=\"Copyright\">copier</string>\r\n\r\n\r\n</resources>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/values/strings.xml	(revision ef1bd13c34ab3ec9e64c3b41db8c530eef06dddf)
++++ app/src/main/res/values/strings.xml	(date 1609258060715)
+@@ -1,12 +1,12 @@
+ <resources>
+     <string name="app_name">Covid19</string>
+-    <string name="Sondage">Sondage"</string>
++    <string name="survey">Tous Anti Covid</string>
+     <string name="question1">Avez-vous été en contact avec des personnes ayant testé positif ou suspecte pour une infection au covid-19?</string>
+     <string name="question2">Avez-vous une maladie cardiaque ou une maladie plumonaire ou rénal ou diabéte ou des troubles immunitaires?</string>
+     <string name="question3">Avez-vous voyagé ou cours des 14 jours?</string>
+     <string name="question4">dautre information a ajouter? </string>
+-    <string name="oui">oui</string>
+-    <string name="non">non</string>
++    <string name="yes">yes</string>
++    <string name="no">no</string>
+     <string name="validate">Confirmer mot de passe</string>
+     <string name="your_name">Votre nom</string>
+     <string name="last_name">Prenom</string>
+@@ -28,12 +28,12 @@
+     <string name="stayhome">stayhome</string>
+     <string name="login">login</string>
+     <string name="password">password</string>
+-    <string name="qst1">1. Avez-vous de la fièvre ou avez-vous ressenti de la fièvre récemment(14-21jours)?</string>
+-    <string name="qst2">2. Avez-vous des essoufflements ou d\'autres difficultés à respirer?</string>
+-    <string name="qst3">3. Avez-vous de la toux ou de la difficulté à avaler?</string>
+-    <string name="qst4">4. Avez-vous d\'autres symptomes pseudo-grippaux, tels que troubles gastro-intestinaux, douleurs musculaires, maux de tete ou fatigue?</string>
+-    <string name="qst5">5. Avez-vous récemment perdu le gout ou le sens d\'odorat?</string>
+-    <string name="Suivant">Suivant</string>
++    <string name="question_one">1. Do you have a fever or have you recently had a fever (14–21 days)?</string>
++    <string name="question_two">2. Do you have shortness of breath or other difficulty breathing?</string>
++    <string name="question_three">3. Do you have a cough or difficulty swallowing?</string>
++    <string name="question_four">4. Do you have other flu-like symptoms, such as gastrointestinal upset, muscle pain, headache, or fatigue?</string>
++    <string name="question_five">5. Have you recently lost your taste or sense of smell?</string>
++    <string name="next">Next</string>
+     <string name="ForgotPassword">oublier mot passe</string>
+     <string name="Copyright">copier</string>
+ 
+Index: app/src/main/java/com/mdwg2/covid19/QuestioningActivity.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.mdwg2.covid19;\r\n\r\nimport androidx.appcompat.app.AppCompatActivity;\r\n\r\nimport java.awt.Button;\r\nimport android.content.Intent;\r\nimport android.widget.Toast;\r\nimport android.view.View;\r\nimport android.os.Bundle;\r\n\r\nimport javax.swing.text.View;\r\n\r\npublic class QuestioningActivity extends AppCompatActivity {\r\n    @Override\r\n    protected void onCreate(Bundle savedInstanceState) {\r\n        super.onCreate(savedInstanceState);\r\n        setContentView(R.layout.activity_questioning);\r\n        final Button button = findViewById(R.id.button);\r\n        button.setOnClickListener(new View.OnClickListener() {\r\n\r\n            public void onClick(View v) {\r\n                if (v.getId() == R.id.button) {\r\n                    Toast.makeText(getApplicationContext(), \"you clicked the Next button\", Toast.LENGTH_SHORT).show();\r\n                    Intent sondage = new Intent(this, activity_sondage_main.Class);\r\n                    startActivity(sondage);\r\n\r\n                }}\r\n        });}}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/com/mdwg2/covid19/QuestioningActivity.java	(revision ef1bd13c34ab3ec9e64c3b41db8c530eef06dddf)
++++ app/src/main/java/com/mdwg2/covid19/QuestioningActivity.java	(date 1609255535974)
+@@ -21,8 +21,8 @@
+             public void onClick(View v) {
+                 if (v.getId() == R.id.button) {
+                     Toast.makeText(getApplicationContext(), "you clicked the Next button", Toast.LENGTH_SHORT).show();
+-                    Intent sondage = new Intent(this, activity_sondage_main.Class);
+-                    startActivity(sondage);
++                    Intent survey = new Intent(this, activity_sondage_main.Class);
++                    startActivity(survey);
+ 
+                 }}
+         });}}
+\ No newline at end of file
+Index: app/src/main/java/com/mdwg2/covid19/MainActivity.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.mdwg2.covid19;\r\n\r\nimport androidx.appcompat.app.AppCompatActivity;\r\n\r\nimport android.os.Bundle;\r\nimport android.view.View;\r\nimport android.widget.Button;\r\nimport android.widget.ImageView;\r\nimport android.widget.TextView;\r\nimport android.widget.Toast;\r\n\r\nimport androidx.appcompat.app.AppCompatActivity;\r\n\r\npublic class MainActivity extends AppCompatActivity {\r\n\r\n\r\n\r\n\r\n    }\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/com/mdwg2/covid19/MainActivity.java	(revision ef1bd13c34ab3ec9e64c3b41db8c530eef06dddf)
++++ app/src/main/java/com/mdwg2/covid19/MainActivity.java	(date 1609255630039)
+@@ -3,17 +3,16 @@
+ import androidx.appcompat.app.AppCompatActivity;
+ 
+ import android.os.Bundle;
+-import android.view.View;
+-import android.widget.Button;
+-import android.widget.ImageView;
+-import android.widget.TextView;
+-import android.widget.Toast;
++
+ 
+ import androidx.appcompat.app.AppCompatActivity;
+ 
+ public class MainActivity extends AppCompatActivity {
+ 
++    @Override
++    protected void onCreate(Bundle savedInstanceState) {
++        super.onCreate(savedInstanceState);
++        setContentView(R.layout.activity_main);
+ 
+ 
+-
+-    }
++    }}
+Index: .idea/gradle.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"GradleMigrationSettings\" migrationVersion=\"1\" />\r\n  <component name=\"GradleSettings\">\r\n    <option name=\"linkedExternalProjectsSettings\">\r\n      <GradleProjectSettings>\r\n        <option name=\"testRunner\" value=\"PLATFORM\" />\r\n        <option name=\"distributionType\" value=\"DEFAULT_WRAPPED\" />\r\n        <option name=\"externalProjectPath\" value=\"$PROJECT_DIR$\" />\r\n        <option name=\"gradleJvm\" value=\"1.8\" />\r\n        <option name=\"modules\">\r\n          <set>\r\n            <option value=\"$PROJECT_DIR$\" />\r\n            <option value=\"$PROJECT_DIR$/app\" />\r\n          </set>\r\n        </option>\r\n        <option name=\"resolveModulePerSourceSet\" value=\"false\" />\r\n      </GradleProjectSettings>\r\n    </option>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/gradle.xml	(revision ef1bd13c34ab3ec9e64c3b41db8c530eef06dddf)
++++ .idea/gradle.xml	(date 1609248131803)
+@@ -15,6 +15,7 @@
+           </set>
+         </option>
+         <option name="resolveModulePerSourceSet" value="false" />
++        <option name="useQualifiedModuleNames" value="true" />
+       </GradleProjectSettings>
+     </option>
+   </component>

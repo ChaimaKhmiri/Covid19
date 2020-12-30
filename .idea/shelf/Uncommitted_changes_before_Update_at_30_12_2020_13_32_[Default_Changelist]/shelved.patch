@@ -1,0 +1,18 @@
+Index: app/src/main/java/com/mdwg2/covid19/QuestioningActivity.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.mdwg2.covid19;\r\n\r\nimport androidx.appcompat.app.AppCompatActivity;\r\n\r\nimport java.awt.Button;\r\nimport android.content.Intent;\r\nimport android.widget.Toast;\r\nimport android.view.View;\r\nimport android.os.Bundle;\r\n\r\nimport javax.swing.text.View;\r\n\r\npublic class QuestioningActivity extends AppCompatActivity {\r\n    @Override\r\n    protected void onCreate(Bundle savedInstanceState) {\r\n        super.onCreate(savedInstanceState);\r\n        setContentView(R.layout.activity_questioning);\r\n        final Button button = findViewById(R.id.button);\r\n        button.setOnClickListener(new View.OnClickListener() {\r\n\r\n            public void onClick(View v) {\r\n                if (v.getId() == R.id.button) {\r\n                    Toast.makeText(getApplicationContext(), \"you clicked the Next button\", Toast.LENGTH_SHORT).show();\r\n                    Intent survey = new Intent(this, activity_sondage_main.Class);\r\n                    startActivity(survey);\r\n\r\n                }}\r\n        });}}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/com/mdwg2/covid19/QuestioningActivity.java	(revision 33c7fe974b6a836a3e6d5f20c3d08dbc9c054582)
++++ app/src/main/java/com/mdwg2/covid19/QuestioningActivity.java	(date 1609331350259)
+@@ -21,7 +21,7 @@
+             public void onClick(View v) {
+                 if (v.getId() == R.id.button) {
+                     Toast.makeText(getApplicationContext(), "you clicked the Next button", Toast.LENGTH_SHORT).show();
+-                    Intent survey = new Intent(this, activity_sondage_main.Class);
++                    Intent survey = new Intent(this, activity_survey.Class);
+                     startActivity(survey);
+ 
+                 }}

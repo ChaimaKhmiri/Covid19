@@ -1,0 +1,27 @@
+Index: app/src/main/res/values-fr-rRE/strings.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<resources>\r\n    <string name=\"app_name\">Covid19</string>\r\n       <string name=\"question1\">question1</string>\r\n    <string name=\"question2\">question2</string>\r\n    <string name=\"question3\">question3</string>\r\n    <string name=\"question4\">question4</string>\r\n    <string name=\"yes\">oui</string>\r\n    <string name=\"no\">non</string>\r\n    <string name=\"login\">connexion</string>\r\n    <string name=\"password\">mot de passe</string>\r\n    <string name=\"validate\">validation</string>\r\n    <string name=\"your_name\">nom</string>\r\n    <string name=\"last_name\">prenom</string>\r\n    <string name=\"your_last_name\">nom</string>\r\n    <string name=\"name\">prenom</string>\r\n    <string name=\"logo2\">connexion</string>\r\n    <string name=\"your_login\">connexion</string>\r\n    <string name=\"location\">localisation</string>\r\n    <string name=\"your_location\">adresse</string>\r\n    <string name=\"Save\">sauvgarder</string>\r\n    <string name=\"confirmation\">confirmation</string>\r\n    <string name=\"enter\">entrer</string>\r\n    <string name=\"create_acount\">cree compte</string>\r\n    <string name=\"logo\">logo</string>\r\n    <string name=\"connexion\">connexion</string>\r\n    <string name=\"create\">creation</string>\r\n    <string name=\"CoronaVirus\">virus corona</string>\r\n    <string name=\"purple_200\">purpule</string>\r\n    <string name=\"stayhome\">rester dans la maison</string>\r\n    <string name=\"ForgotPassword\">oublier mot passe</string>\r\n\r\n    <string name=\"survey\">Tous Anti Covid</string>\r\n    <string name=\"question_one\">1. Avez-vous de la fièvre ou avez-vous ressenti de la fièvre récemment(14-21jours)?</string>\r\n    <string name=\"question_two\">2. Avez-vous des essoufflements ou d\\'autres difficultés à respirer?</string>\r\n    <string name=\"question_three\">3. Avez-vous de la toux ou de la difficulté à avaler?</string>\r\n    <string name=\"question_four\">4. Avez-vous d\\'autres symptomes pseudo-grippaux, tels que troubles gastro-intestinaux, douleurs musculaires, maux de tete ou fatigue?</string>\r\n    <string name=\"question_five\">5. Avez-vous récemment perdu le gout ou le sens d\\'odorat?</string>\r\n    <string name=\"next\">Suivant</string>\r\n</resources>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/values-fr-rRE/strings.xml	(revision 49fabca13dce0af6e56fa23c35121ff44d4e667d)
++++ app/src/main/res/values-fr-rRE/strings.xml	(date 1609260357338)
+@@ -5,8 +5,6 @@
+     <string name="question2">question2</string>
+     <string name="question3">question3</string>
+     <string name="question4">question4</string>
+-    <string name="yes">oui</string>
+-    <string name="no">non</string>
+     <string name="login">connexion</string>
+     <string name="password">mot de passe</string>
+     <string name="validate">validation</string>
+@@ -32,6 +30,8 @@
+ 
+     <string name="survey">Tous Anti Covid</string>
+     <string name="question_one">1. Avez-vous de la fièvre ou avez-vous ressenti de la fièvre récemment(14-21jours)?</string>
++    <string name="yes">oui</string>
++    <string name="no">non</string>
+     <string name="question_two">2. Avez-vous des essoufflements ou d\'autres difficultés à respirer?</string>
+     <string name="question_three">3. Avez-vous de la toux ou de la difficulté à avaler?</string>
+     <string name="question_four">4. Avez-vous d\'autres symptomes pseudo-grippaux, tels que troubles gastro-intestinaux, douleurs musculaires, maux de tete ou fatigue?</string>
