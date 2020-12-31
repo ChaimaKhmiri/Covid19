@@ -1,135 +1,153 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:background="@drawable/background"
-    android:paddingLeft="20dp"
-    android:paddingRight="20dp"
-    android:gravity="center">
+    android:orientation="vertical">
 
+ <RelativeLayout
+     android:layout_width="match_parent"
+     android:layout_height="0dp"
+     android:layout_gravity="center"
+     android:gravity="center"
+     android:orientation="vertical"
+     android:layout_weight="1">
 
-   <TextView
-        android:id="@+id/question1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/pink"
-        android:text="@string/question1"
-        android:textSize="23sp"
-        android:textStyle="bold" />
+  <TextView
+      android:id="@+id/one"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="@color/pink"
+      android:text="@string/question6"
+      android:textSize="20sp"
+      android:textStyle="normal"
+      android:textColor="@color/black"/>
 
-    <RadioButton
-        android:id="@+id/radio1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/question1"
-        android:layout_alignParentStart="true"
-        android:layout_toStartOf="@+id/radio2"
-        android:text="yes" />
+  <RadioButton
+      android:id="@+id/Radio_Button_one"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentStart="true"
+      android:layout_toStartOf="@id/Radio_Button_two"
+      android:layout_below="@id/one"
+      android:text="@string/yes"
+      android:textSize="18sp"/>
 
-    <RadioButton
-        android:id="@+id/radio2"
-        android:layout_width="190dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/question1"
-        android:layout_alignParentEnd="true"
-        android:text="no" />
+  <RadioButton
+      android:id="@+id/Radio_Button_two"
+      android:layout_width="190dp"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/one"
+      android:layout_alignParentEnd="true"
+      android:text="@string/no"
+      android:textSize="18sp" />
 
-    <TextView
-        android:id="@+id/question2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/pink"
-        android:text="@string/question2"
-        android:layout_below="@id/radio1"
-        android:textSize="20sp"
-        android:textStyle="bold" />
+  <TextView
+      android:id="@+id/two"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:background="@color/pink"
+      android:layout_below="@id/Radio_Button_one"
+      android:text="@string/question7"
+      android:textSize="20sp"
+      android:textStyle="normal"
+      android:textColor="@color/black"/>
 
-    <RadioButton
-        android:id="@+id/radio3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/question2"
-        android:layout_alignParentStart="true"
-        android:layout_toStartOf="@+id/radio4"
-        android:text="yes" />
+  <RadioButton
+      android:id="@+id/Radio_Button_three"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/two"
+      android:layout_alignParentStart="true"
+      android:layout_toStartOf="@+id/Radio_Button_four"
+      android:text="@string/yes"
+      android:textSize="18sp"/>
 
-    <RadioButton
-        android:id="@+id/radio4"
-        android:layout_width="190dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/question2"
-        android:layout_alignParentEnd="true"
-        android:text="no" />
+  <RadioButton
+      android:id="@+id/Radio_Button_four"
+      android:layout_width="190dp"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/two"
+      android:layout_alignParentEnd="true"
+      android:text="@string/no"
+      android:textSize="18sp"/>
 
-    <Textview
-        android:id="@+id/question3"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/pink"
-        android:text="@string/question3"
-        android:layout_below="@id/radio4"
-        android:textSize="20sp"
-        android:textStyle="bold" />
+  <TextView
+      android:id="@+id/three"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:background="@color/pink"
+      android:layout_below="@id/Radio_Button_four"
+      android:text="@string/question8"
+      android:textSize="20sp"
+      android:textStyle="normal"
+      android:textColor="@color/black"/>
 
-    <RadioButton
-        android:id="@+id/radio5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/question3"
-        android:layout_alignParentStart="true"
-        android:layout_toStartOf="@+id/radio6"
-        android:text="yes" />
+  <RadioButton
+      android:id="@+id/Radio_Button_five"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/three"
+      android:layout_alignParentStart="true"
+      android:layout_toStartOf="@+id/Radio_Button_six"
+      android:text="@string/yes"
+      android:textSize="18sp"/>
 
-    <RadioButton
-        android:id="@+id/radio6"
-        android:layout_width="190dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/question3"
-        android:layout_alignParentEnd="true"
-        android:text="no" />
+  <RadioButton
+      android:id="@+id/Radio_Button_six"
+      android:layout_width="190dp"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/three"
+      android:layout_alignParentEnd="true"
+      android:text="@string/no"
+      android:textSize="18sp"/>
 
-    <TextView
-        android:id="@+id/question4"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/pink"
-        android:text="@string/question4"
-        android:layout_below="@id/radio6"
-        android:textSize="20sp"
-        android:textStyle="bold" />
+  <TextView
+      android:id="@+id/four"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/Radio_Button_six"
+      android:layout_alignParentEnd="true"
+      android:layout_marginEnd="130dp"
+      android:background="@color/pink"
+      android:text="@string/question9"
+      android:textColor="@color/black"
+      android:textSize="20sp"
+      android:textStyle="normal" />
 
-    <RadioButton
-        android:id="@+id/radio7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/question4"
-        android:layout_alignParentStart="true"
-        android:layout_toStartOf="@+id/radio6"
-        android:text="yes" />
+  <RadioButton
+      android:id="@+id/Radio_Button_seven"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/four"
+      android:layout_alignParentStart="true"
+      android:layout_toStartOf="@+id/Radio_Button_six"
+      android:text="@string/yes"
+      android:textSize="18sp"/>
 
-    <RadioButton
-        android:id="@+id/radio8"
-        android:layout_width="190dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/question4"
-        android:layout_alignParentEnd="true"
-        android:text="no" />
-    <Space
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        tools:targetApi="ice_cream_sandwich" />
+  <RadioButton
+      android:id="@+id/Radio_Button_eight"
+      android:layout_width="190dp"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/four"
+      android:layout_alignParentEnd="true"
+      android:text="@string/no"
+      android:textSize="18sp"/>
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="220dp"
-        android:layout_height="95dp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_gravity="center"
-        android:layout_marginEnd="64dp"
-        android:layout_marginBottom="209dp"
-        android:gravity="center"
-        android:text="send"
-        android:textSize="22sp" />
-</RelativeLayout>
+ </RelativeLayout>
+
+ <Button
+     android:id="@+id/button1"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center"
+     android:gravity="center"
+     android:text="@string/send"
+     android:textSize="16sp"
+     android:textStyle="normal"
+     android:backgroundTint="@color/white"
+     android:textColor="@color/gray"
+     tools:targetApi="lollipop" />
+
+</LinearLayout>
