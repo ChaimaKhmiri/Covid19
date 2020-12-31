@@ -32,7 +32,7 @@ public class ConnexionActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.act_connexion1);
         B = findViewById(R.id.connexion);
         B1 = findViewById(R.id.create);
         final EditText login = findViewById(R.id.user_email);
