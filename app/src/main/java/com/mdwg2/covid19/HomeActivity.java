@@ -4,12 +4,10 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.TextView;
+import android.widget.ImageView;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
-
-import javax.swing.text.html.ImageView;
 
 public class HomeActivity extends AppCompatActivity  {
 
@@ -30,7 +28,7 @@ public class HomeActivity extends AppCompatActivity  {
            setContentView(R.layout.activity_main);
 
            button1 = findViewById(R.id.button1);
-           button1.setOnClickListener(this);
+           button1.setOnClickListener((View.OnClickListener) this);
 
 
        }

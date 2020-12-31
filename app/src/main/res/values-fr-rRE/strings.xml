@@ -7,13 +7,11 @@
     <string name="question4">question4</string>
     <string name="login">connexion</string>
     <string name="password">Mot de passe</string>
-    <string name="confirmation">Confirmer votre mot de passe </string>
     <string name="your_name">Votre nom</string>
     <string name="last_name">Prenom</string>
     <string name="name">Nom</string>
     <string name="your_last_name">Votre prenom</string>
     <string name="email">Email</string>
-    <string name="logo">connexion</string>
     <string name="your_email">Votre email</string>
     <string name="location">Adresse</string>
     <string name="your_location">Votre adresse</string>
@@ -22,6 +20,7 @@
     <string name="enter">Confirmer votre mot de passe</string>
     <string name="your_password"> Votre mot de passe</string>
     <string name="create_account">CREER VOTRE COMPTE</string>
+    <string name="information"> Rappellez les  informations </string>
     <string name="logo">logo</string>
     <string name="connexion">connexion</string>
     <string name="create">creation</string>
