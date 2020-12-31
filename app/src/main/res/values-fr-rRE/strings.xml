@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Covid19</string>
-    <string name="question1">question1</string>
-    <string name="question2">question2</string>
-    <string name="question3">question3</string>
-    <string name="question4">question4</string>
+    <string name="question6">6. Avez-vous été en contact avec des personnes qui ont été testées positives ou soupçonnées d'être infectées par la covid-19?</string>
+    <string name="question7">Avez-vous une maladie cardiaque ou une maladie du plumon ou des reins ou du diabète ou des troubles immunitaires?</string>
+    <string name="question8">8.Avez-vous voyagé ou au cours des 14 jours?</string>
+    <string name="question9">d autre information à ajouter</string>
+    <string name="send">ENVOYER</string>
     <string name="login">connexion</string>
     <string name="password">Mot de passe</string>
     <string name="your_name">Votre nom</string>
